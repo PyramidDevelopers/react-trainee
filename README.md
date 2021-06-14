@@ -26,6 +26,7 @@ Its a simple format. The title of the PR should be the Component Name and then f
 - Added header and description
 - Styled the header
 - Styled the images
+- Added the empty boxes
 
 ## Reporting
 
