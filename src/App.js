@@ -1,11 +1,11 @@
-import './App.css';
-
-function App() {
+import React from "react";
+import HomeScreen from "./Screens/HomeScreen";
+const App = () => {
   return (
-    <div className='app'>
-      <h1>Pyramid Developers</h1>
-    </div>
+    <>
+      <HomeScreen />
+    </>
   );
-}
+};
 
 export default App;
