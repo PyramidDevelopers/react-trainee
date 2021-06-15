@@ -1,0 +1,96 @@
+.footer-main{
+    display: flex;
+    position: absolute;
+    bottom:0;
+    margin-top: 5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 5rem;
+    background-color: #ffca60;
+    font-family: 'Mate SC', serif;
+}
+
+.btn{
+    height: 20rem;
+    width: 6rem;
+    margin-right: 5rem;
+    border:none;
+    border-radius: 1rem;
+    background-color: #121212;
+}
+
+.p-btn{
+    font-size: large;
+    padding-right: 2.5rem;
+    padding-top: 8rem;
+    margin-left: 0;
+    font-size: x-large;
+    cursor: pointer;
+    color: grey;
+}
+
+.footer-left{
+    display: flex;
+
+}
+
+.footer-right{
+    display: flex;
+}
+
+.useful-links
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    color: #121212;
+    font-size: large;
+}
+
+.useful-links-head{
+    font-size: larger;
+    line-height: 5rem;
+    display: flex;
+}
+
+.social-media-links{
+    display: flex;
+
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    color: #121212;
+}
+
+.pointer{
+    font-size: smaller;
+    line-height: 2.5rem;
+    display: flex;
+    cursor: pointer;
+    color: #121212;
+    text-decoration: none;
+}
+
+.abt-us-p{
+    font-size: smaller;
+}
+
+.stay-connected-flex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10rem;
+}
+
+.about-us-main{
+    font-family: 'Mate SC', serif;
+    width: 60%;
+}
+
+.about-us-head{
+    line-height: 5rem;
+    font-size: larger;
+}

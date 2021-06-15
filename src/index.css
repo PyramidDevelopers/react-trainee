@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #121212;
+    font-family: 'Mate SC', serif;
+}
+@font-face{
+    font-family: OCRAEXT;
+    src: url('../src/fonts/OCRAEXT.TTF') format('ttf');
+}
