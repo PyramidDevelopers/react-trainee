@@ -1,9 +1,10 @@
-import './App.css';
+import "./App.css";
+import Heading from "./components/Header/Heading";
 
 function App() {
   return (
-    <div className='app'>
-      <h1>Pyramid Developers</h1>
+    <div className="app">
+      <Heading />
     </div>
   );
 }

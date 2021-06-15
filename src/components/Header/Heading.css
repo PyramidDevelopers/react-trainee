@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "OCRAExtended";
+  src: local("OCRAEXT.TTF"), url(../../fonts/OCRAEXT.TTF) format("truetype");
+}
+
+.main-heading {
+  font-family: "OCRAExtended";
+  font-size: 9.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading > div {
+  background-color: #ffca60;
+  color: #222629;
+  margin: 20px;
+  border-radius: 10%;
+}
