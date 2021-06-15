@@ -1,0 +1,12 @@
+@import url(/Users/amritesh/Downloads/Coding/react/react-trainee/src/index.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bodyFont;
+    background-color: var(--main-color);
+    color: #fff;
+}
+.element div{
+    margin-bottom: 10%;
+}

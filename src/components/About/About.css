@@ -1,0 +1,38 @@
+@import url(/Users/amritesh/Downloads/Coding/react/react-trainee/src/index.css);
+
+.about{
+    display: flex;
+    margin-bottom: 10%;
+}
+.about--para{
+    margin-left: 8vw;
+    width: 30vw;
+    margin-right: 5vw;
+}
+.about--block{
+    display: grid;
+    align-items: end;
+}
+img{
+    height: 15rem !important;
+    width: auto;
+    margin: 10px;
+    margin-bottom: 0;
+}
+.about--images{
+    display: flex;
+}
+.logos i{
+    font-size: 3rem;
+    background-color: var(--body-color);
+    padding: 25px 20px;
+    border-radius: 10px;
+    color: var(--main-color);
+    margin: 10px;
+}
+.logos{
+    display: flex;
+}
+/* .logos__logo{
+    margin: 5px;
+} */

@@ -1,0 +1,26 @@
+@font-face {
+    font-family: titleFont;
+    src: url(/Users/amritesh/Downloads/Coding/react/react-trainee/src/fonts/OCRAEXT.TTF);
+}
+@font-face {
+    font-family: bodyFont;
+    src: url(/Users/amritesh/Downloads/Coding/react/react-trainee/src/fonts/isocpeur.ttf);
+}
+:root {
+    --main-color: #222629;
+    --grey: #2b2f32;
+    --lightgrey: #adadad;
+    --body-color: #ffca60;
+}
+.small-black-box{
+    width: 80px;
+    height: 100px;
+    background-color: var(--grey);
+    border-radius: 10px;
+}
+.wide-black-box{
+    width: 150px;
+    height: 100px;
+    background-color: var(--grey);
+    border-radius: 10px;
+}

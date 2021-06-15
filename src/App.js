@@ -1,9 +1,13 @@
 import './App.css';
+import About from './components/About/About';
+import What from './components/What/What';
+
 
 function App() {
   return (
     <div className='app'>
-      <h1>Pyramid Developers</h1>
+      <About/>
+      <What/>
     </div>
   );
 }
