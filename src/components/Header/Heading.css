@@ -1,5 +1,7 @@
 .heading-container {
   font-family: "OCRAExtended", "sans-serif";
+  width: 90%;
+  margin: 0 auto;
 }
 
 .heading {
@@ -22,7 +24,6 @@
 .heading-bottom {
   font-size: 1.5rem;
   text-align: right;
-  margin-right: 0.5em;
 }
 
 @media (min-width: 650px) {
@@ -33,6 +34,6 @@
 
   .heading-bottom {
     font-size: 3rem;
-    margin-right: 3.3em;
+    margin-right: 2.3em;
   }
 }
