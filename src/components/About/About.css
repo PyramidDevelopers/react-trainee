@@ -1,8 +1,7 @@
-@import url(/Users/amritesh/Downloads/Coding/react/react-trainee/src/index.css);
+@import url(../../index.css);
 
 .about{
     display: flex;
-    margin-bottom: 10%;
 }
 .about--para{
     margin-left: 8vw;
@@ -21,9 +20,12 @@ img{
 }
 .about--images{
     display: flex;
+    /* position: absolute;
+    right: 10rem; */
 }
 .logos i{
-    font-size: 3rem;
+    /* font-size: 3rem; */
+    font-size: calc(1.8vw + 1.8vh);
     background-color: var(--body-color);
     padding: 25px 20px;
     border-radius: 10px;

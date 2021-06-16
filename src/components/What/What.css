@@ -1,7 +1,8 @@
-@import url(/Users/amritesh/Downloads/Coding/react/react-trainee/src/index.css);
+@import url(../../index.css);
 
 .what{
     display: flex;
+    margin-bottom: 10%;
 }
 .what__left{
     width: 60vw;
@@ -19,28 +20,36 @@
     display: flex;
 }
 .what__leftbox{
-    float: right;
+    align-items: end;
 }
 .small-black-box{
     margin: 5px;
 }
+.what__leftimg{
+    display: grid;
+    justify-items: end;
+    align-items: end;
+}
 .image-left img{
-    height: 25rem !important;
+    max-height: 15rem !important;
     width: auto;
+    display: grid;
+    justify-items: start;
+    align-items: start;
     /* max-width: 100% !important;
     height: auto; */
 }
 .top__right img{
     /* height: 15rem !important;
     width: auto; */
-    max-width: 100% !important;
-    height: auto;
+    max-height: 100vh !important;
+    width: auto;
 }
 .what__rightimg > img{
     /* height: 17rem !important;
     width: auto; */
-    max-width: 100% !important;
-    height: auto;
+    max-height: 100vh !important;
+    width: auto;
 }
 .top__right{
     display: flex;

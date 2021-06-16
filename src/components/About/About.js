@@ -17,11 +17,11 @@ const About = () => {
             <div className="about--para">
                 <Content title={title} para1={para1} para2={para2}/>
             </div>
-            <div className="about--block">
-                <div className="small-black-box">
-                </div>
-            </div>
             <div className="about--images">
+                <div className="about--block">
+                    <div className="small-black-box">
+                    </div>
+                </div>
                 <div className="about--imgleft">
                     <div>
                         <img src={upper} alt=""/>
@@ -33,13 +33,13 @@ const About = () => {
                 <div className="about--imgRight">
                     <div className="logos">
                         <div className="logos__logo">
-                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i className="fab fa-linkedin"></i></a>
                         </div>
                         <div className="logos__logo">
-                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i className="fab fa-instagram"></i></a>
                         </div>
                         <div className="logos__logo">
-                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i className="fab fa-facebook-square"></i></a>
                         </div>
                     </div>
                     <div className="img">
