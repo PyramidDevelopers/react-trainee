@@ -1,15 +1,23 @@
 import React from "react";
+import Logo from "./Logo";
+import HeaderButton from "./HeaderButton";
 import "./Heading.css";
+
 function Heading() {
   return (
-    <div className="main-heading">
-      <div className="heading-p">P</div>
-      <div className="heading-p">Y</div>
-      <div className="heading-p">R</div>
-      <div className="heading-p">A</div>
-      <div className="heading-p">M</div>
-      <div className="heading-p">I</div>
-      <div className="heading-p">D</div>
+    <div className="heading-container">
+      <div className="heading">
+        <Logo />
+        <span className="heading-item">P</span>
+        <span className="heading-item">Y</span>
+        <span className="heading-item">R</span>
+        <span className="heading-item">A</span>
+        <span className="heading-item">M</span>
+        <span className="heading-item">I</span>
+        <span className="heading-item">D</span>
+        <HeaderButton />
+      </div>
+      <div className="heading-bottom">developers</div>
     </div>
   );
 }

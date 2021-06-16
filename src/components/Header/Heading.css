@@ -1,19 +1,38 @@
-@font-face {
-  font-family: "OCRAExtended";
-  src: local("OCRAEXT.TTF"), url(../../fonts/OCRAEXT.TTF) format("truetype");
+.heading-container {
+  font-family: "OCRAExtended", "sans-serif";
 }
 
-.main-heading {
-  font-family: "OCRAExtended";
-  font-size: 9.5rem;
+.heading {
+  margin-top: 1em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.main-heading > div {
-  background-color: #ffca60;
-  color: #222629;
-  margin: 20px;
-  border-radius: 10%;
+.heading-item {
+  font-weight: 700;
+  margin: 0.1rem;
+  display: inline-block;
+  font-size: 3rem;
+  background-color: var(--orange);
+  color: var(--dark-grey);
+  border-radius: 15%;
+}
+
+.heading-bottom {
+  font-size: 1.5rem;
+  text-align: right;
+  margin-right: 0.5em;
+}
+
+@media (min-width: 650px) {
+  .heading-item {
+    font-size: 8rem;
+    margin: 0.8rem;
+  }
+
+  .heading-bottom {
+    font-size: 3rem;
+    margin-right: 3.3em;
+  }
 }

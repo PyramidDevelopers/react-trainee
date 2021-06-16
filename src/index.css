@@ -1,0 +1,68 @@
+/* General Styles */
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-grey: #222629;
+  --grey: #2b2f32;
+  --light-grey: #adadad;
+  --orange: #ffca60;
+  --pink: #ff60bb;
+  --green: #dbff60;
+  --dark-pink: #ff6085;
+  --light-sky-blue: #60ffba;
+  --purple: #b460ff;
+  --cyan: #60efff;
+  --peach: #ff7660;
+}
+
+body {
+  margin: 0;
+  background-color: var(--dark-grey);
+  color: var(--orange);
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Typography */
+@font-face {
+  font-family: "OCRAExtended";
+  src: local("OCRAEXT.TTF"), url(./fonts/OCRAEXT.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "ISOCPEUR";
+  src: local("ISOCPEUR"), url(./fonts/isocpeur.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "JdScarabeoLightRegular";
+  src: local("JdScarabeoLightRegular-EZVl"),
+    url(./fonts/JdScarabeoLightRegular-EZVl.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Scared";
+  src: local("Scared"), url(./fonts/jd_scarabeo_light.ttf) format("truetype");
+}
+
+/* Layout */
+
+.container {
+  max-width: 90%;
+}
+
+.center {
+  margin: 2rem auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1em;
+}

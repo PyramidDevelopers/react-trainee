@@ -1,0 +1,4 @@
+.background-box {
+  background-color: var(--grey);
+  border-radius: 15%;
+}
