@@ -1,0 +1,61 @@
+.work-container {
+  display: grid;
+  grid-template-columns: 55% 45%;
+  grid-template-rows: 1fr;
+  font-family: "OCRAExtended", sans-serif;
+}
+
+.work-background {
+  background-color: var(--grey);
+  margin: 1em;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.work-info {
+  align-self: flex-end;
+}
+
+.work-image {
+  align-self: center;
+}
+
+.work-status {
+  display: inline-block;
+  font-size: 0.6rem;
+  background-color: var(--orange);
+  color: var(--grey);
+  border-radius: 0.3em;
+  padding: 0.2em 0.5em;
+  margin: 0;
+}
+
+.work-title {
+  font-size: 0.9rem;
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+}
+
+.work-desc {
+  font-size: 0.6rem;
+  color: var(--text-grey);
+  margin-top: 0.5em;
+}
+
+@media (min-width: 650px) {
+  .work-container {
+    padding: 2em;
+  }
+
+  .work-status {
+    font-size: 0.8rem;
+  }
+
+  .work-title {
+    font-size: 1.5rem;
+  }
+
+  .work-desc {
+    font-size: 1rem;
+  }
+}

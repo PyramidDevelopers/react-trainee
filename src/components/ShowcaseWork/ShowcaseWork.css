@@ -1,0 +1,48 @@
+.showcase-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+.showcase-title {
+  font-family: "OCRAExtended", sans-serif;
+  text-align: center;
+}
+
+@media (min-width: 650px) {
+  .showcase-work {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-areas:
+      ". secondElement"
+      "firstElement secondElement"
+      "firstElement fourthElement"
+      "thirdElement fourthElement"
+      "thirdElement fifthElement";
+  }
+
+  .showcase-title {
+    font-size: 2rem;
+    color: var(--text-grey);
+    margin-bottom: 0;
+  }
+
+  .work-num-0 {
+    grid-area: firstElement;
+  }
+  .work-num-1 {
+    grid-area: secondElement;
+    align-self: flex-end;
+  }
+  .work-num-2 {
+    grid-area: thirdElement;
+  }
+  .work-num-3 {
+    grid-area: fourthElement;
+    align-self: center;
+  }
+  .work-num-4 {
+    grid-area: fifthElement;
+    align-self: flex-start;
+  }
+}
