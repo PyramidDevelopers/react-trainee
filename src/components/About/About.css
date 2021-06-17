@@ -4,6 +4,7 @@
   font-family: "OCRAExtended", sans-serif;
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
 
 .about-left {
@@ -22,7 +23,11 @@
   margin-bottom: 2em;
 }
 
-.about-question-mark {
+.colorless {
+  color: var(--text-grey);
+}
+
+.question-mark {
   display: inline-block;
   background-color: var(--orange);
   color: var(--dark-grey);
@@ -76,6 +81,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
+    text-align: justify;
   }
 
   .about-left {
@@ -92,7 +98,7 @@
   }
 
   .about-info {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   .about-social-default-background {

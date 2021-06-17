@@ -13,7 +13,7 @@ function About() {
       <div className="about-container">
         <section className="about-left">
           <h2 className="about-title">
-            WHO ARE WE <span className="about-question-mark">?</span>
+            WHO ARE WE <span className="question-mark">?</span>
           </h2>
           <p className="about-info">
             Simply put, college students looking to make it big.
@@ -21,7 +21,7 @@ function About() {
             We develop apps, make websites, design interfaces, <br />
             create backend architecture, and much more.
           </p>
-          <p className="about-info">
+          <p className="about-info colorless">
             We may still be in college but we bring a vast <br />
             skillset to the table. We have made comprehensive <br />
             and quality digital products for numerous clients.
