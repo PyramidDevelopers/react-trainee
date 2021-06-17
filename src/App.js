@@ -2,9 +2,7 @@ import './App.css';
 
 function App() {
   return (
-    <div className='app'>
-      <h1>Pyramid Developers</h1>
-    </div>
+      <h1>It's working!</h1>
   );
 }
 
