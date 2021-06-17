@@ -6,6 +6,8 @@
 }
 
 .logo-background {
+  background-color: var(--grey);
+  border-radius: 15%;
   padding: 1.12rem 0.3rem;
 }
 

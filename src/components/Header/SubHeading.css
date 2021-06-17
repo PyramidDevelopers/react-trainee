@@ -1,0 +1,33 @@
+.subheading-container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "OCRAExtended", sans-serif;
+  font-size: 1.2rem;
+  color: var(--text-grey);
+}
+
+.subheading {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cta {
+  background-color: var(--grey);
+  padding: 1em;
+  margin-right: 1em;
+  cursor: pointer;
+  border-radius: 10%;
+  font-weight: 400;
+}
+
+.right {
+  display: flex;
+}
+
+@media (min-width: 650px) {
+  .subheading {
+    flex-direction: row;
+  }
+}

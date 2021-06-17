@@ -18,12 +18,20 @@
   --purple: #b460ff;
   --cyan: #60efff;
   --peach: #ff7660;
+  --text-grey: #a6a6a6;
 }
 
 body {
   margin: 0;
   background-color: var(--dark-grey);
   color: var(--orange);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  background-color: inherit;
 }
 
 img {

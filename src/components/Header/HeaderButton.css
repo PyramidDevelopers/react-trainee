@@ -8,14 +8,10 @@
   font-family: "OCRAExtended", "sans-serif";
   font-size: 0.5rem;
   border-radius: 15%;
-  background-color: inherit;
   padding-top: 3em;
   padding-right: 0.5em;
   padding-left: 0.5em;
   padding-bottom: 1em;
-  border: none;
-  cursor: pointer;
-  outline: inherit;
 }
 
 @media (min-width: 650px) {

@@ -2,7 +2,20 @@ import React from "react";
 import "./BackgroundBoxItem.css";
 
 function BackgroundBoxItem(props) {
-  return <div className="background-box">{props.children}</div>;
+  const backgroundWidth = {
+    width: props.width,
+    height: props.height,
+  };
+  return (
+    <div className="background-box" style={backgroundWidth}>
+      {props.children}
+    </div>
+  );
 }
+
+BackgroundBoxItem.defaultProps = {
+  width: "auto",
+  height: "auto",
+};
 
 export default BackgroundBoxItem;
