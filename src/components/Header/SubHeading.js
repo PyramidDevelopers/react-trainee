@@ -5,13 +5,13 @@ function SubHeading() {
   return (
     <div className="subheading-container">
       <div className="subheading">
-        <section className="left">
+        <section className="subheading-left">
           <p>
             a student community of <br />
             digital revolutionaries
           </p>
         </section>
-        <section className="right">
+        <section className="subheading-right">
           <p className="cta">
             GIVE US <br />
             A PROJECT <br /> &gt;&gt;&gt;

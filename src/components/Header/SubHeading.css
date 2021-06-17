@@ -2,7 +2,7 @@
   width: 90%;
   margin: 0 auto;
   font-family: "OCRAExtended", sans-serif;
-  font-size: 1.2rem;
+  font-size: 0.85rem;
   color: var(--text-grey);
 }
 
@@ -22,11 +22,19 @@
   font-weight: 400;
 }
 
-.right {
+.subheading-left {
+  align-self: center;
+}
+
+.subheading-right {
   display: flex;
+  align-self: center;
 }
 
 @media (min-width: 650px) {
+  .subheading-container {
+    font-size: 1.3rem;
+  }
   .subheading {
     flex-direction: row;
   }

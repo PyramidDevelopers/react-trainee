@@ -38,6 +38,10 @@ img {
   max-width: 100%;
 }
 
+a {
+  color: inherit;
+}
+
 /* Typography */
 @font-face {
   font-family: "OCRAExtended";
