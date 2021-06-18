@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "OCRAEXT";
+  src: url(./Assets/Fonts/OCRAEXT.TTF);
+}
+@font-face {
+  font-family: "ISOCPEAR";
+  src: url(./Assets/Fonts/isocpeur.ttf);
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: ISOCPEAR; */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: OCRAEXT;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  background-color: #222629;
+}

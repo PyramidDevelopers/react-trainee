@@ -1,0 +1,18 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffca60;
+  height: 50vh;
+  width: 90vw;
+  flex-wrap: no-wrap;
+}
+.footerContainer div {
+  background-color: inherit;
+}
+.footerContainer div > h2 {
+  background-color: inherit;
+}
+p {
+  width: 300px;
+  background-color: inherit;
+}
