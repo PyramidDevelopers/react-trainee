@@ -1,0 +1,72 @@
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.input {
+  background-color: var(--grey);
+  padding: 0.5em 1em;
+  margin: 1em 0;
+  color: var(--orange);
+  border-radius: 0.5em;
+  font-family: "OCRAExtended", sans-serif;
+}
+
+.input p {
+  margin-top: 0;
+  font-size: 0.8rem;
+}
+
+.input input {
+  font-size: 1.5em;
+  height: 2rem;
+  width: 16rem;
+  color: var(--orange);
+  font-family: "OCRAExtended", sans-serif;
+}
+
+.input textarea {
+  font-size: 1.5rem;
+  width: 16rem;
+  height: 10rem;
+  color: var(--orange);
+}
+
+.formButton {
+  background-color: var(--orange);
+  font-size: 1rem;
+  padding: 0.5em 7.5rem;
+  border-radius: 0.5em;
+  font-family: "OCRAExtended", sans-serif;
+}
+
+@media (min-width: 650px) {
+  .form-container form {
+    flex-direction: row;
+  }
+
+  .input {
+    width: 22rem;
+  }
+
+  .input input {
+    height: 2.2rem;
+    width: 20rem;
+  }
+
+  .input p {
+    font-size: 1rem;
+  }
+
+  .input textarea {
+    width: 20rem;
+  }
+
+  .formButton {
+    padding: 10rem 0.5em 0.5em 0.5em;
+    margin-left: 0.8em;
+    margin-bottom: 1em;
+    font-size: 1.1rem;
+  }
+}

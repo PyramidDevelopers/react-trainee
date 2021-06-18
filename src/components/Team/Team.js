@@ -51,6 +51,7 @@ function Team() {
   const teamDisplay = teamMembers.map((member, idx) => {
     return (
       <TeamMember
+        key={idx}
         imageUrl={member.image}
         memberName={member.name}
         memberRole={member.role}

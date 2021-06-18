@@ -16,7 +16,9 @@
   }
 
   .member-role {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    line-height: 1.4;
+    letter-spacing: 1.4;
   }
   .member-role p {
     margin-top: 0.5rem;

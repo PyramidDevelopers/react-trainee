@@ -42,9 +42,8 @@ function ShowcaseWork() {
   ];
   const worksDisplay = worksArray.map((work, workIdx) => {
     return (
-      <div className={`work-num-${workIdx}`}>
+      <div className={`work-num-${workIdx}`} key={workIdx}>
         <Work
-          key={workIdx}
           workStatusOngoing={work.ongoing}
           workTitle={work.title}
           workDescription={work.description}

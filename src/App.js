@@ -5,6 +5,7 @@ import What from "./components/What/What";
 import ShowcaseWork from "./components/ShowcaseWork/ShowcaseWork";
 import Why from "./components/Why/Why";
 import Team from "./components/Team/Team";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ShowcaseWork />
       <Why />
       <Team />
+      <Contact />
     </div>
   );
 }
