@@ -2,7 +2,8 @@ import Left from "../../assets/what-left.png";
 import Lower from "../../assets/what-lower.png";
 import Upper from "../../assets/what-upper.png";
 import Content from "../Content/Content";
-import "./What.css";
+import "./trial.css";
+
 const What = () => {
     const para1 = "We make highly customised mobile applications which are very efficient and scalable at low cost.";
 

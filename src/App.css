@@ -8,7 +8,13 @@
     background-color: var(--main-color);
     color: #fff;
     overflow-x: hidden;
+    /* margin: 0 auto; */
 }
-.element div{
-    margin-bottom: 10%;
+img{
+    margin: .625rem;
 }
+/* @media only screen and (min-width: 1700px) and (max-width: 1950px){
+    :root {
+        font-size: 14px;
+    }
+} */

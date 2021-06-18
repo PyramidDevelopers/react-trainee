@@ -1,0 +1,66 @@
+@import url(../../index.css);
+
+.form__overall{
+    display: flex;
+    margin: 0 auto;
+}
+.textbox label, .textarea label{
+    display: block;
+    border: 0;
+    font-family: titleFont;
+    letter-spacing: -0.12em;
+    font-size: 1.3rem;
+    color: var(--body-color);
+    padding: 5px 15px;
+    background-color: var(--grey);
+    width: 35vw;
+}
+.textbox, .textarea{
+    width: 35vw;
+    border-radius: 15px;
+    margin: 20px;
+    margin-top: 0;
+    background-color: var(--grey)j;
+}
+.textbox input, .textarea textarea{
+    width: 35vw;
+    border: 0;
+    font-size: 1.6rem;
+    color:  var(--body-color);
+    padding: 15px;
+    padding-top: 0;
+    background-color: var(--grey);
+    font-family: titleFont;
+    letter-spacing: -0.09em;
+}
+.textarea textarea{
+    resize: none;
+    height: 25vh;
+}
+.form__right{
+    padding-top: 8rem;
+}
+.form__button button{
+    height: 28vh;
+    width: 6rem;
+    background-color: var(--body-color);
+    border-radius: 15px;
+    color: var(--main-color);
+    font-size: 1.6rem;
+    font-family: titleFont;
+    letter-spacing: -0.12em;
+    padding-top: 15vh;
+    cursor: pointer;
+    border: 0;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.form__button button i{
+    width: 100%;
+    justify-items: end;
+    background-color: var(--body-color);
+    color: var(--main-color);
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}

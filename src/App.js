@@ -3,6 +3,7 @@ import About from './components/About/About';
 import What from './components/What/What';
 import Why from './components/Why/Why';
 import Team from './components/Team/Team';
+import Reach from './components/Reach/Reach';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <What/>
       <Why/>
       <Team/>
+      <Reach/>
     </div>
   );
 }

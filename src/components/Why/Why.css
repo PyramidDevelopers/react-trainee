@@ -2,13 +2,17 @@
 
 .why{
     display: flex;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+}
+.why__body{
+    margin: 0 auto;
 }
 .why__right{
     display: flex;
     /*might wanna delete this*/
-    position: absolute;
-    right: 0;
+    /* position: absolute;
+    right: 0; */
+    margin: 0 auto;
 }
 .why__right > .left{
     display: grid;
@@ -27,6 +31,7 @@
     margin-left: 8vw;
     max-width: 40vw;
     margin-right: 5vw;
+    margin: 0 auto auto 8vw;
 }
 .left__img{
     height: 22rem !important;

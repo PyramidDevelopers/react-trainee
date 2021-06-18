@@ -2,10 +2,12 @@
 
 .team{
     font-family: titleFont;
-    margin-bottom: 10vh;
+    margin-bottom: 10%;
+    width: 100%;
+    text-align: center;
 }
 .team__title{
-    font-size: 3.5rem;
+    font-size: 4rem;
     font-family: titleFont;
     letter-spacing: -0.12em;
     text-align: center;

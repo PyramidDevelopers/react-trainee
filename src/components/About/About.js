@@ -24,26 +24,26 @@ const About = () => {
                 </div>
                 <div className="about--imgleft">
                     <div>
-                        <img src={upper} alt=""/>
+                        <img src={upper} alt="" className="img__upperlower"/>
                     </div>
                     <div>
-                        <img src={lower} alt=""/>
+                        <img src={lower} alt="" className="img__upperlower"/>
                     </div>
                 </div>
                 <div className="about--imgRight">
                     <div className="logos">
                         <div className="logos__logo">
-                            <a href="#"><i className="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/company/pyramid-developers/" target="_blank" rel="noreferrer"><i className="fab fa-linkedin"></i></a>
                         </div>
                         <div className="logos__logo">
-                            <a href="#"><i className="fab fa-instagram"></i></a>
+                            <a href="http://www.instagram.com/pyramid_developers" target="_blank" rel="noreferrer"><i className="fab fa-instagram"></i></a>
                         </div>
                         <div className="logos__logo">
-                            <a href="#"><i className="fab fa-facebook-square"></i></a>
+                            <a href="https://www.facebook.com/PyramidDeveloper" target="_blank" rel="noreferrer"><i className="fab fa-facebook-square"></i></a>
                         </div>
                     </div>
                     <div className="img">
-                        <img src={right} alt=""/>
+                        <img src={right} alt="" className="img__right"/>
                     </div>
                 </div>
             </div>

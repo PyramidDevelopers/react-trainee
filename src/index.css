@@ -29,6 +29,8 @@
 .wide-black-box{
     width: 9.563rem;
     height: 6rem;
+    /* width: calc(4.5vw + 4.5vh);
+    height: calc(3vw + 3vh); */
     background-color: var(--grey);
     border-radius: 10px;
     margin: 10px;

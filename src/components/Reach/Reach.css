@@ -1,0 +1,113 @@
+@import url(../../index.css);
+
+.reach__content{
+    display: flex;
+    margin: 0 auto;
+}
+.reach__left{
+    width: 50vw;
+    margin: 0 auto;
+}
+.reach__right{
+    width: 50vw;
+    margin: 0 auto;
+}
+/* .reach__title{
+    width: 20%;
+} */
+.reach__title p{
+    font-family: titleFont;
+    font-size: 4rem;
+    color: var(--lightgrey);
+    letter-spacing: -0.12em;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.left__title p{
+    width: 35vw;
+    margin-left: 20px;
+    color: var(--body-color);
+    line-height: 1.7rem;
+    font-size: 1.4rem;
+    margin-bottom: 8%;
+}
+.right__top{
+    display: flex;
+    margin-bottom: 10%;
+}
+.top__left{
+    width: 35vw;
+    height: 25%;
+    background-color: var(--grey);
+    border-radius: 15px;
+}
+.top__left p{
+    background-color: var(--grey);
+    padding: 20px 15px;
+}
+.top__lefttitle{
+    color: var(--body-color);
+    font-family: titleFont;
+    font-size: 1.6rem;
+    letter-spacing: -0.12em;
+    margin-bottom: 20%;
+}
+.top__leftbody{
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    margin-bottom: 0;
+    color: var(--lightgrey);
+}
+.right__top .first__box{
+    margin-left: 15px;
+    margin-top: 0;
+    height: 9rem
+}
+.right__top .second__box{
+    margin-left: 15px;
+    height: 9rem;
+    margin-top: 9rem;
+}
+.right__bottominfo{
+    display: flex;
+}
+.right__bottomicon{
+    background-color: var(--body-color);
+    border-radius: 15px;
+    width: 14%;
+    height: 16vh;
+    margin-bottom: 20px;
+}
+.right__bottomicon div, .right__bottomicon i{
+    background-color: var(--body-color);
+    color: var(--main-color);
+    text-align: center;
+}
+.right__bottomicon i{
+    padding-top: 45%;
+    justify-items: center;
+    font-size: 2.5rem;
+    padding-left: 30%;
+}
+.right__bottomicon div{
+    font-family: titleFont;
+    font-size: 1.5rem;
+    letter-spacing: -0.12rem;
+}
+.right__bottomname{
+    background-color: var(--grey);
+    border-radius: 15px;
+    margin-left: 20px;
+    width: 65%;
+    height: 16vh;
+    margin-bottom: 20px;
+}
+.right__bottomname p{
+    background-color: var(--grey);
+    color: var(--body-color);
+    font-family: titleFont;
+    letter-spacing: -0.12rem;
+    font-size: 2rem;
+    padding-top: 6vh;
+    padding-left: 20px;
+}
