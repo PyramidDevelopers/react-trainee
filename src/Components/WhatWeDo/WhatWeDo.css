@@ -1,0 +1,33 @@
+.WhatDoWeDoContainer {
+  display: flex;
+  justify-content: space-around;
+}
+.WhatWeDoImages {
+  display: flex;
+}
+.WhatWeDoImages {
+  align-self: flex-end;
+}
+.WhatWeDoImageRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.WhatWeDoImageLeft {
+  width: 255px;
+  height: 511px;
+  align-self: flex-end;
+}
+
+.WhatWeDoImageUpper {
+  width: 262px;
+  height: 335px;
+}
+.WhatWeDoImageLower {
+  width: 401px;
+  height: 331px;
+}
+
+.WhatWeDoRight {
+  align-self: flex-end;
+}

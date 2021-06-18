@@ -1,11 +1,12 @@
-import './App.css';
+import React from "react";
+import HomePage from "Pages/HomePage/";
 
-function App() {
+const App = () => {
   return (
-    <div className='app'>
-      <h1>Pyramid Developers</h1>
-    </div>
+    <>
+      <HomePage />
+    </>
   );
-}
+};
 
 export default App;

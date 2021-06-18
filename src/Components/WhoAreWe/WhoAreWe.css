@@ -1,0 +1,66 @@
+.WhoAreWeContainer {
+  display: flex;
+  justify-content: space-around;
+  height: 60vh;
+}
+
+.WhoAreWeRight {
+  display: flex;
+  justify-content: center;
+}
+
+.WhoAreWeLeft {
+}
+
+.WhoAreWeRightImage {
+  display: flex;
+  flex-direction: column;
+}
+
+.WhoAreWeRightImage img {
+  width: 18rem;
+  height: 13rem;
+  margin: 0.25rem;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-right: 12px;
+  margin-bottom: 8px;
+}
+
+.WhoAreWeRightSocial {
+  display: flex;
+  flex-direction: column;
+}
+
+.SocialMediaBoxes {
+  display: flex;
+  margin: 0px;
+}
+.SocialMediaBoxes span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffca60;
+  width: 80px;
+  height: 100px;
+  margin: 6px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+.WhoAreWeRightSocial img {
+  width: 12rem;
+  height: 15rem;
+  margin-top: 0.4rem;
+}
+
+.WhoAreWeContainer p {
+  font-family: ISOCPEAR;
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.22;
+  letter-spacing: normal;
+  text-align: left;
+}
