@@ -10,7 +10,7 @@ const WhoAreWe = () => {
     <div className="WhoAreWeContainer">
       <div className="WhoAreWeLeft">
         <h2 style={{ color: Color }}>Who Are We ?</h2>
-        <p>
+        <p style={{ color: Color }}>
           Simply put, college students looking to make it big. We develop apps,
           make website, design interfaces, create backend architecture and much
           more.

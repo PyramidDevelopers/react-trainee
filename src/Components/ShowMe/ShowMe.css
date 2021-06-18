@@ -1,0 +1,55 @@
+.ShowMeContainer {
+  display: flex;
+  width: 100%;
+}
+
+.ShowMeLeft {
+  width: 60%;
+}
+
+.ShowMeLeftBox {
+  width: 890px;
+  height: 694px;
+  background-color: #2b2f32;
+  margin-bottom: 5px;
+  border-radius: 1rem;
+  display: flex;
+}
+.ShowMeRightBox {
+  width: 575px;
+  height: 516px;
+  background-color: #2b2f32;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border-radius: 1rem;
+  display: flex;
+}
+.ShowMeLeft img {
+  width: 18rem;
+  height: 35rem;
+  margin-top: 60px;
+}
+
+.ShowMeLeftBoxLeft {
+  width: 40%;
+  align-self: flex-end;
+  background-color: inherit;
+}
+
+.ShowMeRight {
+  width: 40%;
+}
+.ShowMeRightBox {
+  display: flex;
+}
+.ShowMeRightBoxLeft {
+  width: 40%;
+  align-self: flex-end;
+  background-color: inherit;
+}
+
+.ShowMeRight img {
+  width: 12rem;
+  height: 25rem;
+  margin-top: 30px;
+}
