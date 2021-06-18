@@ -4,6 +4,7 @@ import About from "./components/About/About";
 import What from "./components/What/What";
 import ShowcaseWork from "./components/ShowcaseWork/ShowcaseWork";
 import Why from "./components/Why/Why";
+import Team from "./components/Team/Team";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <What />
       <ShowcaseWork />
       <Why />
+      <Team />
     </div>
   );
 }

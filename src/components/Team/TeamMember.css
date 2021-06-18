@@ -1,0 +1,24 @@
+.member-name {
+  font-size: 1rem;
+}
+
+.member-role {
+  font-size: 0.8rem;
+}
+
+@media (min-width: 650px) {
+  .member-name {
+    font-size: 1.3rem;
+  }
+
+  .member-name p {
+    margin-bottom: 0;
+  }
+
+  .member-role {
+    font-size: 0.9rem;
+  }
+  .member-role p {
+    margin-top: 0.5rem;
+  }
+}
