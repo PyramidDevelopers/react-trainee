@@ -20,7 +20,7 @@
 } 
 
 .member-designation {
-    margin: 3px 2px 61px;
+    margin: 3px 2px 50px;
     font-family: OCRAExtended;
     font-size: 13.5px;
     letter-spacing: -1.8px;
@@ -31,7 +31,7 @@
 .member-image {
     width: 230px;
     height: 230px;
-    margin: 96px 5px 20px;
+    margin: 96px 5px 10px;
     object-fit: contain;
     border-radius: 15px;
     align-self: center;

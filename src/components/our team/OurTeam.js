@@ -15,9 +15,12 @@ export const OurTeam = () => {
   ]
   return (
     <div className="team-container">
+      <div className = "rect-left-small" />
+      <div className = "rect-left-big" />
       {teamMembersData.map((memberData) => {
         return <TeamMember memberData = {memberData} />
       })}
+      <div className = "rect-right" />
     </div>
   )
 }
