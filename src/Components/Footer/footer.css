@@ -1,0 +1,145 @@
+@import url("../../index.css");
+
+.footer-main{
+    font-family: OCRAExtended;
+    display: flex;
+    position: relative;
+    height: 100%;
+    bottom:0;
+    margin-top: 5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    padding-right: 5rem;
+    background-color: #ffca60;
+}
+
+.btn{
+    height: 20rem;
+    width: 6rem;
+    margin-right: 5rem;
+    border:none;
+    border-radius: 1rem;
+    background-color: #121212;
+}
+
+.p-btn{
+    font-size: large;
+    padding-right: 2.5rem;
+    padding-top: 8rem;
+    margin-left: 0;
+    font-size: x-large;
+    cursor: pointer;
+    color: grey;
+}
+
+.footer-left{
+    display: flex;
+
+}
+
+.footer-right{
+    display: flex;
+}
+
+.useful-links
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    margin-right: 1.25rem;
+    color: #121212;
+    font-size: large;
+}
+
+.useful-links-head{
+    font-size: large;
+    line-height: 5rem;
+    display: flex;
+    width: max-content;
+}
+
+.stay-connected-flex{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15rem;
+    padding: 1rem, 1rem, 1rem, 1rem;
+}
+
+.social-media-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+.stay-connected-head{
+    font-size: large;
+    line-height: 4.5rem;
+}
+
+.sm-link{
+    size:5rem;
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 2em;
+    margin-left: 0;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    color: #121212;
+    width: max-content;
+}
+
+.pointer{
+    font-size: smaller;
+    line-height: 2.5rem;
+    display: flex;
+    cursor: pointer;
+    color: #121212;
+    text-decoration: none;
+}
+
+.abt-us-p{
+    font-size: small;
+    padding-right: 2rem;
+}
+.about-us-head{
+    line-height: 4.5rem;
+    font-size: larger;
+}
+
+.foo-img{
+    width: 100%;
+    margin-right:5px;
+}
+
+@media (max-width:801px)
+{
+    .sm-link{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .stay-connected-flex{
+        margin-left: 12rem;
+    }
+    
+    .stay-connected-head{
+        line-height: 2rem;
+    }
+    .abt-us-p{
+        line-height: 1.25rem;
+        padding-right: 1rem;
+    }
+
+    .useful-links{
+        margin-left:0;
+    }
+
+    .footer-main{
+        bottom: -10rem;
+    }
+}

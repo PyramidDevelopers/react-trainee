@@ -1,0 +1,82 @@
+@import url('../../index.css');
+
+.reach-us{
+    margin: 2rem,2rem,2rem, 2rem;
+    padding: 5rem;
+}
+.reach-us-header {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    color:whitesmoke;
+    margin-bottom: 2rem;
+}
+
+.reach-us-desp-left-abt{
+    font-size: x-small;
+    font-weight: 400;
+    padding: 1rem, 1rem,1rem, 1rem;
+    color: whitesmoke;
+    margin-bottom: 2rem;
+    width: 36.5rem;
+}
+
+.input{
+    color: whitesmoke;
+    background-color:#484747;
+    /* padding: 2rem; */
+    /* margin: 2rem,2rem,2rem,2rem; */
+    width: 26.5rem;
+    height: 3.563rem;
+    margin: .625rem;
+    padding-top: .625rem;
+    padding-bottom: .625rem;
+    padding-inline: 1.25rem;
+    border-radius: .938rem;
+}
+
+input, textarea{
+    border: none;
+    outline: none;
+    background:transparent;
+    max-width: 36.5rem;
+    height: 80%;
+}
+
+
+.input-text-area{
+    height: 9.563rem;
+}
+
+
+
+.submit-btn{
+   width: 7.5rem;
+    height: 20.375rem;
+    margin: .625rem;
+    border-radius: .938rem;
+    background-color: #2b2f32;
+}
+.reach-us-btn{
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffca60;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    border-radius: .938rem;
+    cursor: pointer;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    font-family: OCRAExtended;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    text-align: left;
+}
+
+
