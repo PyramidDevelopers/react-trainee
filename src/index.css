@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+  font-family: "OCRAExtended", 'Times New Roman', Times, serif;
+  src: local("OCRAExtended") url('../src/fonts/OCRAEXT.TTF') format("ttf");
+}
+
+body{
+  background-color: #211f1f;;
+}
