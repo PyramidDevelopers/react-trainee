@@ -13,7 +13,7 @@ const About = () => {
 
 
     return (
-        <div className="about">
+        <div className="about" id="first">
             <div className="about--para">
                 <Content title={title} para1={para1} para2={para2}/>
             </div>

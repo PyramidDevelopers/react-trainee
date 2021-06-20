@@ -12,7 +12,7 @@ const What = () => {
     const title = "WHAT DO WE DO";
 
     return (
-        <div className="what">
+        <div className="what" id="second">
             <div className="what__left">
                 <div className="upper__left">
                     <div className="boxes">

@@ -3,6 +3,7 @@
 .reach__content{
     display: flex;
     margin: 0 auto;
+    margin-bottom: 8%;
 }
 .reach__left{
     width: 50vw;

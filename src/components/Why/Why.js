@@ -8,7 +8,7 @@ const Why = () => {
     const para1 = "Our main focus is quality. We will give you the best looking, most user friendly products with a firm code base, for the right price.";
     const para2 = "If you partner with Pyramid, We will ensure that you receive an end product that exceeds expectations. We follow Agile Development practices to ensure we fulfil our promises.";
     return (
-        <div className="why">
+        <div className="why" id="fourth">
             <div className="why__body">
                 <Content title={title} para1={para1} para2={para2}/>
             </div>

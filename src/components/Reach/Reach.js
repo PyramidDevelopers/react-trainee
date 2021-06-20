@@ -5,7 +5,7 @@ const Reach = () => {
     const texts = ["Your Name", "Your Email ID", "Your Phone No"];
     const textAreas = ["Your Query"];
     return (
-        <div className="reach">
+        <div className="reach" id="sixth">
             <div className="reach__title">
                 <p>REACH US</p>
             </div>
@@ -39,7 +39,7 @@ const Reach = () => {
                         </div>
                         <div className="right__bottominfo">
                             <div className="right__bottomicon">
-                                <i class="fas fa-phone-alt"></i>
+                                <i className="fas fa-phone-alt"></i>
                                 <div className="right__iconname">PHONE</div>
                             </div>
                             <div className="right__bottomname">

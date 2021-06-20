@@ -4,6 +4,7 @@ import What from './components/What/What';
 import Why from './components/Why/Why';
 import Team from './components/Team/Team';
 import Reach from './components/Reach/Reach';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Why/>
       <Team/>
       <Reach/>
+      <Footer/>
     </div>
   );
 }

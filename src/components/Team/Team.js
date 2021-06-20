@@ -14,7 +14,7 @@ const Team = () => {
     ];
 
     return (
-        <div className="team">
+        <div className="team" id="fifth">
             <div className="team__title">OUR TEAM</div>
             <div className="team__body">
                 <div className="team__left">
