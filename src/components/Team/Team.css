@@ -16,6 +16,11 @@
 }
 .team__body{
     display: flex;
+    width: 100%;
+}
+.team__body > div{
+    display: flex;;
+    margin: 0 auto;
 }
 .team__left{
     display: flex;
@@ -23,13 +28,31 @@
 .team__middle{
     display: flex;
 }
-.long-black-box{
-    height: 80%;
-}
+/* .long-black-box{
+    height: 85%;
+} */
 .team__left > .long-black-box{
-    margin-left: -2%;
-    margin-right: -5%;
+    margin-left: -10%;
+    height: 80%;
+    /* margin-right: -5%; */
 }
 .team__left__boxes > .small-black-box{
-    margin-top: -18%;
+    /* margin-top: -18%; */
+    margin-top: -12%;
+}
+
+
+@media screen and (min-width: 1825px) {
+    .team__left > .long-black-box{
+        margin-left: 2%;
+    }
+    .team__left__boxes > .small-black-box{
+        width: 7.5rem;
+    }
+}
+@media screen and (min-width: 1850px) {
+    .team__left__boxes > .small-black-box{
+        /* margin-top: %; */
+        height: 10.563rem;
+    }
 }

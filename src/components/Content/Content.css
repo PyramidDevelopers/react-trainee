@@ -46,7 +46,7 @@
     /* display: inline-block; */
     color: var(--lightgrey);
 }
-@media screen and (min-width: 1370px) {
+@media screen and (min-width: 1383px) {
     .content--titletext{
         font-size: 4rem;
     }

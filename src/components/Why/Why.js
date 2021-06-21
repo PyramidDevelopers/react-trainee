@@ -19,7 +19,7 @@ const Why = () => {
                 </div>
                 <div className="middle">
                     <div className="wide-black-box"></div>
-                    <img src={Right} alt=""/>
+                    <img src={Right} className="right__img" alt=""/>
                 </div>
                 <div className="right">
                     <div className="small-black-box"></div>

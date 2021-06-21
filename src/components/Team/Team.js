@@ -17,6 +17,7 @@ const Team = () => {
         <div className="team" id="fifth">
             <div className="team__title">OUR TEAM</div>
             <div className="team__body">
+                <div className="body__mainteam">
                 <div className="team__left">
                     <div className="team__left__boxes">
                         <div className="small-black-invisible-box"></div>
@@ -31,6 +32,7 @@ const Team = () => {
                 </div>
                 <div className="team__right">
                     <div className="wide-black-box"></div>
+                </div>
                 </div>
             </div>
         </div>
