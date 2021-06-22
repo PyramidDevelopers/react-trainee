@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(39, 36, 36);
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+@font-face {
+  font-family: 'OCR A Extended';
+  src: local('OCR A Extended'), url(./fonts/OCRAEXT.TTF) format('truetype');
+}
+@font-face {
+  font-family: 'ISOCPEUR';
+  src: local('ISOCPEUR'), url(./fonts/isocpeur.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'JdScarabeoLightRegular';
+  src: local('JdScarabeoLightRegular-EZVl'),
+      url(./fonts/JdScarabeoLightRegular-EZVl.ttf) format('truetype');
+}

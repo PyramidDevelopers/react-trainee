@@ -1,0 +1,96 @@
+.footer{
+    display:flex;
+    width:100%;
+    background-color: #ffca60;
+    padding:5rem 0rem 5rem 10rem;
+}
+.footer_about{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 24rem;
+    margin-right: 5rem;
+}
+.footer .click_me button{
+    background-color: #222629;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+    width:7.5rem;
+    height:23rem;
+    justify-content:space-between;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.923rem;
+    margin-right: 3rem;
+    align-items: center;
+    
+}
+.footer .click_me button img{
+    margin: 2rem;
+    width: 4.68rem;
+    height: auto;
+}
+.footer .click_me .click{
+    font-size: 1.8rem;
+    font-family: OCR A Extended;
+    color: #60EFFF;
+    font-weight: normal;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+.title{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-family: OCR A Extended;
+    font-weight: 400;
+    font-stretch: normal;
+    color: #222629;
+}
+.about_text{
+    font-size: 1.68rem;
+    font-family: ISOCPEUR;
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.22;
+    color: #222629;
+}
+.links{
+    display:flex;
+    flex-flow:column;
+    color: #222629;
+    margin-right: 10rem;
+}
+.links .link_name{
+    margin-bottom:0.4rem;
+    margin-top: 0.5rem;
+    font-size: 1.688rem;
+    font-family: ISOCPEUR;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    cursor: pointer;
+}
+.stayconnected .stay_title{
+    margin-bottom:1rem;
+    font-size: 3.125rem;
+    font-family: OCR A Extended;
+    font-weight: normal;
+}
+.stayconnected .social_info{
+    margin-bottom:1rem;
+    font-size: 1.688rem;
+    font-family: ISOCPEUR;
+    font-weight: normal;
+}
+.platforms{
+    display: flex;
+}
+
+.stayconnected .platforms > *{
+    margin-right:1rem;
+}
+a:visited, a:hover,a:focus{
+    text-decoration: none;
+}
