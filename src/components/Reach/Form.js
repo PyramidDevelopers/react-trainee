@@ -3,7 +3,7 @@ import "./Form.css";
 const Form = ({texts, textAreas}) => {
     return (
         <div className="form">
-            <form>
+            <form onSubmit={e=>e.preventDefault()}>
                 <div className="form__overall">
                     <div className="form__left">
                         <div className="form__text">
@@ -28,7 +28,7 @@ const Form = ({texts, textAreas}) => {
                     <div className="form__right">
                         <div className="small-black-box"></div>
                         <div className="form__button">
-                            <button onClick={e=>e.preventDefault()}><i className="fas fa-greater-than"></i>SUBMIT</button>
+                            <button><i className="fas fa-greater-than"></i>SUBMIT</button>
                         </div>
                     </div>
                 </div>

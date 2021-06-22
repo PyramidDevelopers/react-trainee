@@ -1,0 +1,136 @@
+@import url(../../index.css);
+
+.tilescontainer{
+    display: flex;
+    margin: 0 auto;
+}
+.tilescontainer div{
+    font-family: titleFont;
+    color: var(--lightgrey);
+}
+.tile__body{
+    width: 65%;
+    position: relative;
+}
+.tiles__mainbody{
+    /* width: 65%; */
+    padding: 8% 8%;
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.ongoing{
+    font-family: titleFont;
+    color: var(--main-color);
+    letter-spacing: -0.12em;
+    padding: 0.457rem 0.675rem;
+    border-radius: 8px;
+    background-color: var(--body-color);
+}
+.tiles__img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tile-big{
+    width: 98%;
+    background-color: var(--grey);
+    border-radius: 15px;
+    margin: .625rem;
+}
+.tile-big div{
+    background-color: var(--grey);
+    letter-spacing: -0.12em;
+}
+.tile-big img{
+    background-color: var(--grey);
+    box-sizing:content-box;
+    width: 15.75rem;
+    margin: 1rem;
+    margin-left: 0;
+    height: auto;
+    border-radius: 1rem;
+}
+.tile-big .ongoing{
+    font-size: 1.5rem;
+}
+.tile-big .tiles__title{
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    font-size: 2.5rem;
+    color: var(--body-color);
+}
+.tile-big .tiles__body{
+    font-size: 1.2rem;
+}
+
+.tile-small .tile__body{
+    width: 50%;
+} 
+.tile-small{
+    width: 98%;
+    background-color: var(--grey);
+    border-radius: 15px;
+    margin: .625rem;
+}
+.tile-small div{
+    background-color: var(--grey);
+    letter-spacing: -0.12em;
+}
+.tile-small img{
+    background-color: var(--grey);
+    box-sizing:content-box;
+    width: 11.879rem;
+    margin: 1rem;
+    margin-left: 0;
+    height: auto;
+    border-radius: 1rem;
+}
+.tile-small .ongoing{
+    font-size: 1.2rem;
+}
+.tile-small .tiles__title{
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    font-size: 2rem;
+    color: var(--body-color);
+}
+.tile-small .tiles__body{
+    font-size: 1.1rem;
+}
+
+
+@media screen and (min-width: 1900px) {
+    .tile__body{
+        width: 55%;
+    }
+    .tile-big img{
+        width: 24.75rem;
+    }
+    .tile-big .ongoing{
+        font-size: 2rem;
+    }
+    .tile-big .tiles__title{
+        margin-bottom: 2.5%;
+    }
+    .tile-big .tiles__body{
+        font-size: 1.6rem;
+    }
+    .tile-small .tile__body{
+        width: 45%;
+    }
+    .tile-small img{
+        width: 18.109rem;
+    }
+    .tile-small .ongoing{
+        font-size: 1.5rem;
+    }
+    .tile-small .tiles__title{
+        font-size: 2.4rem;
+    }
+    .tile-small .tiles__body{
+        font-size: 1.3rem;
+    }
+    
+}

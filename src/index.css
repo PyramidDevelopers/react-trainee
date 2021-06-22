@@ -24,7 +24,7 @@
 .small-black-invisible-box{
     /* width: 6rem;
     height: 8rem; */
-    width: 7.5rem;
+    width: 6rem;
     height: 9.563rem;
     background-color: var(--main-color);
     border-radius: 15px;
@@ -33,7 +33,7 @@
 .wide-black-box{
     /* width: 9.563rem; */
     width: 13.375rem;
-    height: 7.563rem;
+    height: 8.563rem;
     /* height: 6rem; */
     /* width: calc(4.5vw + 4.5vh);
     height: calc(3vw + 3vh); */
@@ -55,7 +55,7 @@
         height: 9.563rem;
     }
     .small-black-box{
-        width: 7.5rem;
+        width: 9rem;
         height: 9.563rem;
     }
     .long-black-box{

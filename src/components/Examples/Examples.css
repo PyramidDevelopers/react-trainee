@@ -1,0 +1,95 @@
+@import url(../../index.css);
+
+.examples{
+    margin-bottom: 8%;
+}
+.examples__heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.examples__body{
+    display: flex;
+}
+.body__left .wide-black-box{
+    width: 90%;
+    height: 8%;
+    margin-top: 10.563rem;
+}
+.body__left .long-black-box{
+    float: right;
+    margin-top: 15rem;
+    height: 18rem;
+}
+.body__left .small-black-box{
+    float: right;
+}
+.body__centerboxes{
+    display: flex;
+}
+.heading__leftbox{
+    display: flex;
+}
+.heading__title{
+    font-family: titleFont;
+    font-size: 4rem;
+    color: var(--lightgrey);
+    letter-spacing: -0.12em;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.body__left{
+    width: 10%;
+}
+.body__centerleft{
+    width: 50%;
+}
+.body__centerleft .body__centerboxes{
+    position: relative;
+}
+.body__centerleft .wide-black-box{
+    position: absolute; /*or fixed*/
+    right: 0px;
+}
+.body__centerright{
+    width: 30%;
+}
+.body__right{
+    width: 10%;
+}
+.body__right .small-black-box{
+    margin-bottom: 12rem;
+}
+.body__right .long-black-box{
+    height: 16rem;
+    margin-bottom: 16.8rem;
+}
+.examples__footer .wide-black-box{
+    margin-left: 6rem;
+}
+
+@media screen and (min-width: 1900px) {
+    .body__left .wide-black-box{
+        height: 7%;
+        margin-top: 11.563rem;
+    }
+    .body__left .long-black-box{
+        margin-top: 35rem;
+        height: 22rem;
+        width: 9rem;
+    }
+    .body__left .small-black-box{
+        width: 9rem;
+        height: 12rem;
+    }
+    .body__right .small-black-box{
+        margin-bottom: 12rem;
+        width: 8rem;
+        height: 11rem;
+    }
+    .body__right .long-black-box{
+        height: 22rem;
+        width: 8rem;
+        margin-bottom: 33.5rem;
+    }
+}
