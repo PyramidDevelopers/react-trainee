@@ -1,0 +1,9 @@
+.footer-background {
+  background-color: var(--orange);
+  color: var(--grey);
+}
+
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+}

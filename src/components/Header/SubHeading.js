@@ -1,5 +1,6 @@
 import React from "react";
 import "./SubHeading.css";
+import { Link } from "react-scroll";
 
 function SubHeading() {
   return (
@@ -12,12 +13,20 @@ function SubHeading() {
           </p>
         </section>
         <section className="subheading-right">
+          <Link activeClass="active" to="contact" smooth={true} duration={1000}>
+            <p className="cta">
+              GIVE US <br />
+              A PROJECT <br /> &gt;&gt;&gt;
+            </p>
+          </Link>
           <p className="cta">
-            GIVE US <br />
-            A PROJECT <br /> &gt;&gt;&gt;
-          </p>
-          <p className="cta">
-            BECOME A<br /> PART OF US <br /> &gt;&gt;&gt;
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://bit.ly/PyramidDevelopersRecruitment"
+            >
+              BECOME A<br /> PART OF US <br /> &gt;&gt;&gt;
+            </a>
           </p>
         </section>
       </div>

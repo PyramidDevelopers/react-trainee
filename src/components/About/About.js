@@ -9,7 +9,7 @@ import Facebook from "@material-ui/icons/Facebook";
 
 function About() {
   return (
-    <div className="container center">
+    <div className="container center" id="about">
       <div className="about-container">
         <section className="about-left">
           <h2 className="about-title">

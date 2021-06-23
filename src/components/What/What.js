@@ -6,7 +6,7 @@ import LeftImage from "../../assets/what-left.png";
 
 function What() {
   return (
-    <div className="container center">
+    <div className="container center" id="what">
       <div className="what-container">
         <section className="what-left">
           <div className="what-images">

@@ -6,7 +6,7 @@ import PhoneIcon from "@material-ui/icons/Phone";
 
 function Contact() {
   return (
-    <div className="container center">
+    <div className="container center" id="contact">
       <div className="contact-container">
         <div className="contact-title">
           <h2>REACH US</h2>
@@ -44,28 +44,32 @@ function Contact() {
               </div>
             </div>
             <div className="contact-details">
-              <div className="contact-mail-icon contact-icon-background">
-                <MailOutlineIcon style={{ fontSize: 40 }} />
-                <br />
-                <span>MAIL</span>
+              <div className="contact-mail">
+                <div className="contact-mail-icon contact-icon-background">
+                  <MailOutlineIcon style={{ fontSize: 40 }} />
+                  <br />
+                  <span>MAIL</span>
+                </div>
+                <div>
+                  <a
+                    href="mailto:developpyramid@gmail.com"
+                    className="contact-mail-address contact-address-background"
+                  >
+                    developpyramid@gmail.com
+                  </a>
+                </div>
               </div>
-              <div>
-                <a
-                  href="mailto:developpyramid@gmail.com"
-                  className="contact-mail-address contact-address-background"
-                >
-                  developpyramid@gmail.com
-                </a>
-              </div>
-              <div className="contact-phone-icon contact-icon-background">
-                <PhoneIcon style={{ fontSize: 40 }} />
-                <br />
-                <span>PHONE</span>
-              </div>
-              <div>
-                <span className="contact-phone-number contact-address-background">
-                  9845309776
-                </span>
+              <div className="contact-phone">
+                <div className="contact-phone-icon contact-icon-background">
+                  <PhoneIcon style={{ fontSize: 40 }} />
+                  <br />
+                  <span>PHONE</span>
+                </div>
+                <div>
+                  <p className="contact-phone-number contact-address-background">
+                    9845309776
+                  </p>
+                </div>
               </div>
             </div>
           </section>

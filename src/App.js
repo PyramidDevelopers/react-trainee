@@ -6,6 +6,7 @@ import ShowcaseWork from "./components/ShowcaseWork/ShowcaseWork";
 import Why from "./components/Why/Why";
 import Team from "./components/Team/Team";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Why />
       <Team />
       <Contact />
+      <Footer />
     </div>
   );
 }

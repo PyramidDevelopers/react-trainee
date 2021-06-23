@@ -5,9 +5,6 @@ import DhruvImage from "../../assets/dhruv-shetty.png";
 import SamarthImage from "../../assets/samarth-kashyap.png";
 import AyushImage from "../../assets/ayush-kiran.png";
 import AnkitImage from "../../assets/ankit-mallya.png";
-import AdithyaImage from "../../assets/adithya-aravind.png";
-import PratheekImage from "../../assets/pratheek-sb.png";
-import RishiImage from "../../assets/rishi-pachipulusu.png";
 
 function Team() {
   const teamMembers = [
@@ -17,34 +14,20 @@ function Team() {
       image: DhruvImage,
     },
     {
-      name: "Adithya Aravind",
-      role: "Core Developer",
-      image: AdithyaImage,
-    },
-    {
-      name: "Pratheek SB",
-      role: "Core Developer",
-      image: PratheekImage,
+      name: "Samarth Kashyap",
+      role: "Business & Strategy",
+      image: SamarthImage,
     },
     {
       name: "Ayush Kiran",
       role: "Lead Designer",
       image: AyushImage,
     },
+
     {
       name: "Ankit Mallya",
       role: "Legal",
       image: AnkitImage,
-    },
-    {
-      name: "Rishi Pachipulusu",
-      role: "Social Media & Marketing",
-      image: RishiImage,
-    },
-    {
-      name: "Samarth Kashyap",
-      role: "Business & Strategy",
-      image: SamarthImage,
     },
   ];
 

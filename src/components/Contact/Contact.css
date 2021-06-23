@@ -7,6 +7,7 @@
 .contact-flex {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .contact-title {
@@ -40,24 +41,26 @@
 }
 
 .contact-details {
-  display: grid;
-  grid-template-columns: 20% 75%;
-  grid-template-rows: 1fr 1fr;
-  gap: 0.5em;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   font-family: "OCRAExtended", sans-serif;
+}
+
+.contact-mail,
+.contact-phone {
+  display: flex;
 }
 
 .contact-icon-background {
   background-color: var(--orange);
   color: var(--grey);
   border-radius: 0.5rem;
-  justify-self: flex-start;
 }
 
 .contact-address-background {
   background-color: var(--grey);
-  align-self: center;
   border-radius: 0.5rem;
 }
 
@@ -70,6 +73,7 @@
 .contact-mail-icon {
   align-self: center;
   padding: 0.5em;
+  margin-right: 2em;
 }
 
 .contact-phone-number {
@@ -81,6 +85,7 @@
 .contact-phone-icon {
   padding: 0.2em;
   align-self: center;
+  margin-right: 2em;
 }
 
 @media (min-width: 650px) {
@@ -112,7 +117,7 @@
   }
 
   .contact-details {
-    margin: 15em 0;
+    margin-top: 15rem;
   }
 
   .contact-mail-icon {
