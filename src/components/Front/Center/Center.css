@@ -1,0 +1,27 @@
+@import url(../../../index.css);
+
+.center__bottom > .texts{
+    font-family: titleFont;
+    font-size: 1.8rem;
+    color: var(--lightgrey);
+    line-height: 2.5rem;
+    margin-top: 2rem;
+    margin-right: 4rem;
+}
+.front-bottom-click{
+    background-color: var(--grey);
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+.front-bottom-click > .texts{
+    background-color: var(--grey);
+    font-family: titleFont;
+    color: var(--lightgrey);
+    letter-spacing: -0.12em;
+    font-size: 1.6rem;
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

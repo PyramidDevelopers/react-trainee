@@ -1,0 +1,28 @@
+@import url(../../index.css);
+
+.front{
+    margin-top: 2.5rem;
+    margin-bottom: 8rem;
+}
+.front__content{
+    display: flex;
+    justify-content: center;
+}
+.front__flex{
+    display: flex;
+}
+.textBox{
+    background-color: var(--body-color);
+}
+.boxes>.texts{
+    background-color: var(--grey);
+    font-family: titleFont;
+    background-color: var(--body-color);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: var(--main-color);
+    font-size: 8rem;
+    font-weight: bold;
+}
