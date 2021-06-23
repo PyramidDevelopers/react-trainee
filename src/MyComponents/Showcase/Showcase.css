@@ -1,1 +1,186 @@
+.showcase {
+    margin-top: 8.75rem;
+    margin-bottom: 8.75rem;
+}
+
+.showcase .showcase-title {
+    display: flex;
+    justify-content: center;
+}
+
+.showcase-title .title-text h1 {
+    width: 55.85rem;
+    margin-top: 1.25rem;
+    font-family: OCRAExtended;
+    font-size: 5rem;
+    font-weight: normal;
+    text-align: center;
+    line-height: 1.04;
+    letter-spacing: -0.5rem;
+    color: #adadad;
+}
+
+.showcase .main {
+    display: flex;
+    justify-content: center;
+}
+
+.main .left-tile {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.main .col1 {
+    display: flex;
+    flex-flow: row;
+    justify-content:space-between;
+    background-color: #2b2f32;
+    padding: 3.75rem 3.75rem 2.5rem 2.5rem;
+    width:55.625rem;
+    border-radius: 0.938rem;
+    margin: 0.625rem;
+}
+.main .col1-text{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.main .col1-text .content {
+    width: 6.813rem;
+    height: 2.375rem;
+    border-radius: 0.375rem;
+    background-color: #ffca60;
+}
+
+.main .col1-text .content p {
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: OCRAExtended;
+    font-size: 1.5rem;
+    -webkit-text-size-adjust: none;
+    font-weight: normal;
+    line-height: 1.04;
+    letter-spacing: -0.15rem;
+    color: #302a29;
+}
+
+.main .col1-text h4 {
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    font-family: OCRAExtended;
+    font-size: 3.438rem;
+    -webkit-text-size-adjust: none;
+    font-weight: normal;
+    line-height: 1.04;
+    letter-spacing: -0.344rem;
+    text-align: left;
+    color: #ffca60;
+}
+
+.main .col1-text h5 {
+    font-family: OCRAExtended;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.04;
+    letter-spacing: -0.15rem;
+    text-align: left;
+    color: #adadad;
+}
+
+.main .col1-image img {
+    width: 18.75rem;
+    height:auto;
+    border-radius: 0.938rem;
+    padding-bottom: 1.25rem;
+}
+
+.main .right-tile{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+}
+
+.main .col2 {
+    display: flex;
+    flex-flow: row;
+    background-color: #2b2f32;
+    padding: 3.25rem 2.75rem 2.5rem 2.5rem;
+    width:35.938rem;
+    border-radius: 0.938rem;
+    margin: 0.625rem;
+}
+
+.main .col2-text {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    width: 17.563rem;
+}
+
+.main .col2-text .content {
+    width: 5rem;
+    height: 1.875rem;
+    border-radius: 0.375rem;
+    background-color: #ffca60;
+}
+
+.main .col2-text .content p {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: OCRAExtended;
+    font-size: 1.125rem;
+    -webkit-text-size-adjust: none;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.113rem;
+    color: #302a29;
+}
+
+.main .col2-text h4 {
+    margin-top: 0.625rem;
+    margin-bottom: 0.625rem;
+    font-family: OCRAExtended;
+    font-size: 2.5rem;
+    -webkit-text-size-adjust: none;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -0.25rem;
+    text-align: left;
+    color: #ffca60;
+}
+
+.main .col2-text h5 {
+    font-family: OCRAExtended;
+    font-size: 1.375rem;
+    -webkit-text-size-adjust: none;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.05;
+    letter-spacing: -0.138rem;
+    text-align: left;
+    color: #adadad;
+}
+
+.main .col2-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .col2-image img {
+    width: 13.438rem;
+    height: auto;
+    border-radius: 0.938rem;
+    padding-bottom: 1.25rem;
+}
 
