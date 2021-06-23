@@ -13,44 +13,6 @@
 img{
     margin: .625rem;
 }
-@media screen and (min-width: 300px) {
-    .app {
-        zoom: 25%;
-    }
-}
-
-@media screen and (min-width: 640px) {
-    .app {
-        zoom: 33%;
-    }
-}
-
-
-@media screen and (min-width: 768px){
-    .app {
-        zoom: 50%;
-    }
-}
-@media screen and (min-width: 1024px) {
-    .app {
-        zoom: 70%;
-    }
-}
-@media screen and (min-width: 1200px) {
-    .app {
-        zoom: 80%;
-    }
-}
-@media screen and (min-width: 1400px) {
-    .app {
-        zoom: 90%;
-    }
-}
-@media screen and (min-width: 1536px) {
-    .app {
-        zoom: 100%;
-    }
-}
 
 /* @media only screen and (min-width: 1700px) and (max-width: 1950px){
     :root {
