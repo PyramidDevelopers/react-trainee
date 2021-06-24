@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .Team {
     margin-top: 8.125rem;
     margin-bottom: 8.125rem;
@@ -71,3 +72,79 @@
     text-align: center;
     color: #ffca60;
 }
+||||||| 7fd4f19
+=======
+.Team {
+    margin-top: 8.125rem;
+    margin-bottom: 8.125rem;
+}
+
+.Team-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Team-title h1 {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6.25rem;
+    padding: 0.625rem;
+    font-family: OCRAExtended;
+    font-size: 5rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.04;
+    letter-spacing: -0.5rem;
+    color: #adadad;
+    
+}
+.Team-desc{
+    display: flex;
+    justify-content:center;
+}
+.lead .image{
+    justify-content:center;
+    align-items:center;
+}
+
+.lead .image img{
+  max-width: 20.25rem;
+  height: auto;
+  margin: 0.625rem;
+  border-radius: 0.938rem;
+}
+
+.lead .name{
+    display:flex;
+    flex-flow:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.lead .name h5{
+    margin:0.625rem;
+    font-family: OCRAExtended;
+    font-size: 2.063rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -0.206rem;
+    text-align: left;
+    color: #ffca60;
+}
+
+.lead .name h6{
+    font-family: OCRAExtended;
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: -0.113rem;;
+    text-align: center;
+    color: #ffca60;
+}
+>>>>>>> f91342f34b56211a918ef222da226cdc6d75c16d
