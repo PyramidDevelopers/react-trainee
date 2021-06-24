@@ -48,14 +48,4 @@ const What = () => {
 export default What;
 ||||||| 7fd4f19
 =======
-import React from 'react'
-import './What.css'
-
-const What = () => {
-    return (
-        <div></div>
-    )
-}
-
-export default What
 >>>>>>> f91342f34b56211a918ef222da226cdc6d75c16d
