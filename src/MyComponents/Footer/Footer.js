@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react'
 import LinkedIn from '@material-ui/icons/LinkedIn'
 import Instagram from '@material-ui/icons/Instagram'
@@ -141,4 +140,3 @@ const Footer = () => {
 }
 
 export default Footer
->>>>>>> f91342f34b56211a918ef222da226cdc6d75c16d
