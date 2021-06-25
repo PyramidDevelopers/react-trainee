@@ -43,10 +43,10 @@ const Contact = () => {
             </div>
 
             <div className="col1">
-                <button type="submit">
-                  <KeyboardReturnIcon />
-                  <p>SUBMIT</p>
-                </button>
+              <button type="submit">
+                <KeyboardReturnIcon />
+                <p>SUBMIT</p>
+              </button>
             </div>
           </form>
         </div>
@@ -54,9 +54,9 @@ const Contact = () => {
         <div className="col2">
           <div className="col2-p1">
             <div className="left">
-                <p className="col2-text1">
-                  Looking to work with us? &gt;&gt;&gt;
-                </p>
+              <p className="col2-text1">
+                Looking to work with us? &gt;&gt;&gt;
+              </p>
 
               <p className="col2-text2">
                 Join us to take part in exciting projects <br />
