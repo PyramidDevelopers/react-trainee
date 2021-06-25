@@ -44,4 +44,4 @@ const Why = () => {
     )
 }
 
-export default Why
+export default Why;

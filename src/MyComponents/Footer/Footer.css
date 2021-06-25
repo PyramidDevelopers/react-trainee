@@ -137,17 +137,3 @@
     font-size: 4.688rem;
     margin-right: 1.5rem;
 }
-
-@media screen and (min-width: 300px) and (max-width: 480px) {
-    .button-content button{
-        height:40rem;
-    }
-    .footer-comp1{
-        flex-wrap:wrap;
-    }
-    .footer-comp1 .footer-about{
-        width:80%;
-        margin-bottom:7rem;
-        margin-right:2rem;
-    }
-}
