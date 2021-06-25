@@ -7,19 +7,21 @@ import Team from './components/Team/Team';
 import Reach from './components/Reach/Reach';
 import Footer from './components/Footer/Footer';
 import Examples from './components/Examples/Examples';
-
+import ThemeContextProvider from './contexts/ThemeContext';
 
 function App() {
   return (
     <div className='app'>
-      <Front/>
-      <About/>
-      <What/>
-      <Examples/>
-      <Why/>
-      <Team/>
-      <Reach/>
-      <Footer/>
+      <ThemeContextProvider>
+        <Front/>
+        <About/>
+        <What/>
+        <Examples/>
+        <Why/>
+        <Team/>
+        <Reach/>
+        <Footer/>
+      </ThemeContextProvider>
     </div>
   );
 }
