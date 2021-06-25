@@ -54,7 +54,7 @@ function ShowcaseWork() {
   });
   return (
     <div className="container center">
-      <div className="showcase-container">
+      <div className="showcase-container" id="showcase">
         <div className="showcase-title">
           <h2>SHOW ME WHAT YOU GOT</h2>
         </div>

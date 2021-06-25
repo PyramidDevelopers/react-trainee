@@ -6,7 +6,7 @@ import WhyRightImage from "../../assets/choose-right.png";
 function Why() {
   return (
     <div className="container center">
-      <div className="why-container">
+      <div className="why-container" id="why">
         <section className="why-left">
           <h2 className="why-title">
             WHY CHOOSE US <span className="question-mark">?</span>

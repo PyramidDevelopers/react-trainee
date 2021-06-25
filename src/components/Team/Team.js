@@ -44,7 +44,7 @@ function Team() {
 
   return (
     <div className="container center">
-      <div className="team-container">
+      <div className="team-container" id="team">
         <div className="team-title">
           <h2>OUR TEAM</h2>
           <section className="team-members">{teamDisplay}</section>
