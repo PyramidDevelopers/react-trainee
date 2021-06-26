@@ -92,3 +92,67 @@ textarea {
   display: grid;
   gap: 1em;
 }
+
+.theme-0-background {
+  background-color: var(--orange) !important;
+}
+
+.theme-0-color {
+  color: var(--orange) !important;
+}
+
+.theme-1-background {
+  background-color: var(--pink) !important;
+}
+
+.theme-1-color {
+  color: var(--pink) !important;
+}
+
+.theme-2-background {
+  background-color: var(--green) !important;
+}
+
+.theme-2-color {
+  color: var(--green) !important;
+}
+
+.theme-3-background {
+  background-color: var(--dark-pink) !important;
+}
+
+.theme-3-color {
+  color: var(--dark-pink) !important;
+}
+
+.theme-4-background {
+  background-color: var(--light-sky-blue) !important;
+}
+
+.theme-4-color {
+  color: var(--light-sky-blue) !important;
+}
+
+.theme-5-background {
+  background-color: var(--purple) !important;
+}
+
+.theme-5-color {
+  color: var(--purple) !important;
+}
+
+.theme-6-background {
+  background-color: var(--cyan) !important;
+}
+
+.theme-6-color {
+  color: var(--cyan) !important;
+}
+
+.theme-7-background {
+  background-color: var(--peach) !important;
+}
+
+.theme-7-color {
+  color: var(--peach) !important;
+}

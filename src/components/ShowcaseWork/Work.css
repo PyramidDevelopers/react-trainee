@@ -45,15 +45,23 @@
 
 @media (min-width: 650px) {
   .work-container {
-    padding: 2em;
+    padding: 2em 0 2em 2em;
   }
 
   .work-status {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .work-title {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
+  }
+
+  .work-info {
+    width: 90%;
+  }
+
+  .work-image {
+    width: 75%;
   }
 
   .work-desc {

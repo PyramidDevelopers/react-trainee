@@ -84,7 +84,7 @@ function Footer() {
 
               <div className="footer-stayconnected">
                 <h3>STAY CONNECTED</h3>
-                <p class="footer-address-text">
+                <p className="footer-address-text">
                   Address: No.1, Vibha, Bhadrappa Layout
                   <br /> Nagashettihalli, Bangalore - 560094
                 </p>

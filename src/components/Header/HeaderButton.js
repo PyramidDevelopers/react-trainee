@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./HeaderButton.css";
+import { ThemeContext } from "../../ThemeContext";
 
 function HeaderButton() {
+  const { count, toggleTheme } = useContext(ThemeContext);
+  console.log(count);
   return (
     <div className="header-button-container">
-      <button className="header-button">
+      <button
+        className={`header-button theme-${count}-background`}
+        onClick={toggleTheme}
+      >
         CLICK
         <br /> ME&gt;
       </button>
