@@ -19,8 +19,8 @@ export const Who = () => {
             <InfoText question = {question} paragraph1 = {paragraph1} paragraph2 = {paragraph2} />
             <div className="vertical-rect" />
             <div className="upper-lower-image-container">
-                <img src = {upperImg} alt = "" className = "upper-image" />
-                <img src = {lowerImg} alt = "" className = "lower-image" />
+                <img src = {upperImg} alt = "" className = "upper-lower-image" />
+                <img src = {lowerImg} alt = "" className = "upper-lower-image" />
             </div>
             <div className="logos-image-container">
                 <div className="logos-container">

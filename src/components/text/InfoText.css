@@ -12,12 +12,13 @@
     display: flex;
     flex-flow: column;
     justify-content: flex-start;
-    width: 470px;
+    /* width: 465px; */
 }
 
 .paragraph-1 {
     margin-top: 81px;
     margin-right: 10px;
+    width: 462px;
     font-family: ISOCPEUR;
     font-size: 20px;
     line-height: 1.22;
@@ -27,6 +28,7 @@
 .paragraph-2 {
     margin-top: 27px;
     margin-right: 10px;
+    width: 462px;
     font-family: ISOCPEUR;
     font-size: 20px;
     line-height: 1.22;
@@ -41,7 +43,7 @@
 
 .question-title {
     font-family: OCRAExtended;
-    font-size: 65px;
+    font-size: 60px;
     margin-right: 10px;
     line-height: 1.04;
     letter-spacing: -5px;
