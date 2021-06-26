@@ -1,0 +1,43 @@
+.subheading-container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "OCRAExtended", sans-serif;
+  font-size: 0.85rem;
+  color: var(--text-grey);
+  margin-top: 3rem;
+}
+
+.subheading {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cta {
+  background-color: var(--grey);
+  padding: 1em;
+  margin-right: 1em;
+  cursor: pointer;
+  border-radius: 10%;
+  font-weight: 400;
+}
+
+.subheading-left {
+  align-self: center;
+}
+
+.subheading-right {
+  display: flex;
+  align-self: center;
+}
+
+@media (min-width: 650px) {
+  .subheading-container {
+    font-size: 1.3rem;
+    margin-top: 5rem;
+  }
+  .subheading {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,11 @@
+.background-box {
+  background-color: var(--grey);
+  border-radius: 10%;
+  display: none;
+}
+
+@media (min-width: 650px) {
+  .background-box {
+    display: block;
+  }
+}

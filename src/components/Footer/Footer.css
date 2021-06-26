@@ -1,0 +1,85 @@
+.footer-background {
+  background-color: var(--orange);
+  color: var(--grey);
+}
+
+.footer-margin {
+  margin-bottom: 0%;
+}
+
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  flex-direction: column;
+  font-family: "ISOCPEUR", sans-serif;
+}
+
+.footer-links-connected {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-info h3 {
+  font-family: "OCRAExtended", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 100;
+  margin-bottom: 0.5rem;
+}
+
+.footer-links {
+  width: 50%;
+}
+
+.footer-stayconnected {
+  width: 60%;
+}
+
+.footer-address-text {
+  line-height: 1.4;
+}
+
+@media (min-width: 650px) {
+  .footer-info {
+    flex-direction: row;
+    font-size: 1.2rem;
+    width: 90%;
+    justify-content: space-between;
+  }
+
+  .footer-info h3 {
+    font-size: 2rem;
+  }
+
+  .footer-aboutus {
+    width: 30%;
+    line-height: 1.2;
+  }
+
+  .footer-links-connected {
+    width: 65%;
+  }
+
+  .footer-links {
+    width: 50%;
+  }
+
+  .footer-stayconnected {
+    width: 50%;
+    font-size: 1.1rem;
+  }
+
+  .footer-social-links > * {
+    font-size: 3rem;
+    color: #000000;
+  }
+}

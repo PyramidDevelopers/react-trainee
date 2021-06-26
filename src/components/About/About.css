@@ -1,0 +1,112 @@
+.about-container {
+  width: 90%;
+  margin: 0 auto;
+  font-family: "OCRAExtended", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-left {
+  margin: 0 auto;
+}
+
+.about-title {
+  font-size: 1.3rem;
+}
+
+.about-info {
+  margin-top: 1.5em;
+  font-family: "ISOCPEUR", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin-bottom: 2em;
+}
+
+.colorless {
+  color: var(--text-grey);
+}
+
+.question-mark {
+  display: inline-block;
+  background-color: var(--orange);
+  color: var(--dark-grey);
+  padding: 0.1em 0.2em;
+  border-radius: 15%;
+  font-weight: 400;
+}
+
+.about-images {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 1fr 1fr 2fr;
+  grid-template-areas:
+    "upperImage socialIcons"
+    "upperImage rightImage"
+    "lowerImage rightImage"
+    "lowerImage  .";
+  gap: 1em;
+}
+
+.about-social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  grid-area: socialIcons;
+}
+
+.about-images-upper {
+  grid-area: upperImage;
+}
+
+.about-images-lower {
+  grid-area: lowerImage;
+}
+
+.about-images-right {
+  grid-area: rightImage;
+}
+
+.about-social-default-background {
+  display: inline-block;
+  background-color: var(--orange);
+  color: var(--dark-grey);
+  margin: 0.1em;
+  border-radius: 10%;
+}
+
+@media (min-width: 650px) {
+  .about-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: justify;
+  }
+
+  .about-left {
+    width: 45%;
+  }
+
+  .about-right {
+    width: 45%;
+  }
+
+  .about-title {
+    margin-top: 0;
+    font-size: 3rem;
+  }
+
+  .about-info {
+    font-size: 1.3rem;
+  }
+
+  .about-social-default-background {
+    padding: 0.8em 0.4em;
+    margin: 0.3em;
+  }
+
+  .about-social-icon {
+    font-size: 10em;
+  }
+}

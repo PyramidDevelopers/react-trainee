@@ -1,0 +1,84 @@
+.what-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2em;
+}
+
+.what-left {
+  margin: 0 auto;
+}
+
+.what-images {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-template-rows: 1fr 1fr 2fr;
+  grid-template-areas:
+    ".         upperImage ."
+    "leftImage upperImage ."
+    "leftImage lowerImage lowerImage"
+    "leftImage lowerImage lowerImage";
+  gap: 0.5em;
+}
+
+.what-upper-image {
+  grid-area: upperImage;
+  align-self: flex-start;
+}
+
+.what-lower-image {
+  grid-area: lowerImage;
+  align-self: flex-start;
+}
+
+.what-left-image {
+  grid-area: leftImage;
+  align-self: flex-start;
+}
+
+.what-right {
+  order: -1;
+}
+
+.what-title {
+  font-family: "OCRAExtended", sans-serif;
+  font-size: 1rem;
+}
+
+.what-info {
+  margin-top: 1.5em;
+  font-family: "ISOCPEUR", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.4;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 650px) {
+  .what-container {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+  }
+
+  .what-left {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+  }
+
+  .what-right {
+    order: 0;
+    width: 45%;
+    align-self: flex-end;
+  }
+
+  .what-title {
+    font-size: 2rem;
+  }
+
+  .what-info {
+    font-size: 1.3rem;
+  }
+}

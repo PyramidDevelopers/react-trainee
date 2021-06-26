@@ -1,0 +1,158 @@
+/* General Styles */
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-grey: #222629;
+  --grey: #2b2f32;
+  --light-grey: #adadad;
+  --orange: #ffca60;
+  --pink: #ff60bb;
+  --green: #dbff60;
+  --dark-pink: #ff6085;
+  --light-sky-blue: #60ffba;
+  --purple: #b460ff;
+  --cyan: #60efff;
+  --peach: #ff7660;
+  --text-grey: #a6a6a6;
+}
+
+body {
+  margin: 0;
+  background-color: var(--dark-grey);
+  color: var(--orange);
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  outline: inherit;
+  background-color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  background: inherit;
+  border: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+  background: inherit;
+}
+
+/* Typography */
+@font-face {
+  font-family: "OCRAExtended";
+  src: local("OCRAEXT.TTF"), url(./fonts/OCRAEXT.TTF) format("truetype");
+}
+
+@font-face {
+  font-family: "ISOCPEUR";
+  src: local("ISOCPEUR"), url(./fonts/isocpeur.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "JdScarabeoLightRegular";
+  src: local("JdScarabeoLightRegular-EZVl"),
+    url(./fonts/JdScarabeoLightRegular-EZVl.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Scared";
+  src: local("Scared"), url(./fonts/jd_scarabeo_light.ttf) format("truetype");
+}
+
+/* Layout */
+
+.container {
+  max-width: 90%;
+}
+
+.center {
+  margin: 2rem auto;
+}
+
+.grid {
+  display: grid;
+  gap: 1em;
+}
+
+.theme-0-background {
+  background-color: var(--orange) !important;
+}
+
+.theme-0-color {
+  color: var(--orange) !important;
+}
+
+.theme-1-background {
+  background-color: var(--pink) !important;
+}
+
+.theme-1-color {
+  color: var(--pink) !important;
+}
+
+.theme-2-background {
+  background-color: var(--green) !important;
+}
+
+.theme-2-color {
+  color: var(--green) !important;
+}
+
+.theme-3-background {
+  background-color: var(--dark-pink) !important;
+}
+
+.theme-3-color {
+  color: var(--dark-pink) !important;
+}
+
+.theme-4-background {
+  background-color: var(--light-sky-blue) !important;
+}
+
+.theme-4-color {
+  color: var(--light-sky-blue) !important;
+}
+
+.theme-5-background {
+  background-color: var(--purple) !important;
+}
+
+.theme-5-color {
+  color: var(--purple) !important;
+}
+
+.theme-6-background {
+  background-color: var(--cyan) !important;
+}
+
+.theme-6-color {
+  color: var(--cyan) !important;
+}
+
+.theme-7-background {
+  background-color: var(--peach) !important;
+}
+
+.theme-7-color {
+  color: var(--peach) !important;
+}

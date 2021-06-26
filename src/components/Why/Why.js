@@ -1,0 +1,47 @@
+import React, { useContext } from "react";
+import { ThemeContext } from "../../ThemeContext";
+import "./Why.css";
+import WhyLeftImage from "../../assets/choose-left.png";
+import WhyRightImage from "../../assets/choose-right.png";
+
+function Why() {
+  const { count } = useContext(ThemeContext);
+  return (
+    <div className="container center">
+      <div className="why-container" id="why">
+        <section className="why-left">
+          <h2 className={`why-title theme-${count}-color`}>
+            WHY CHOOSE US{" "}
+            <span className={`question-mark theme-${count}-background`}>?</span>
+          </h2>
+          <p className={`why-info theme-${count}-color`}>
+            Our main focus is quality. We will give you the best <br /> looking,
+            most user friendly products with a firm code <br /> base, for the
+            right price.
+          </p>
+          <p className="why-info colorless">
+            If you partner with Pyramid, We will ensure that you <br /> receive
+            an end product that exceeds expectations. <br /> We follow Agile
+            Development practices to ensure we <br /> fulfil our promises.
+          </p>
+        </section>
+        <section className="why-right">
+          <div className="why-images">
+            <img
+              src={WhyLeftImage}
+              alt="People working on their Laptops"
+              className="why-left-image"
+            />
+            <img
+              src={WhyRightImage}
+              alt="A boy coding in his hoodie"
+              className="why-right-image"
+            />
+          </div>
+        </section>
+      </div>
+    </div>
+  );
+}
+
+export default Why;

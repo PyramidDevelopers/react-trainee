@@ -1,0 +1,22 @@
+.logo {
+  max-width: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-background {
+  background-color: var(--grey);
+  border-radius: 15%;
+  padding: 1.12rem 0.3rem;
+}
+
+@media (min-width: 650px) {
+  .logo {
+    max-width: 10rem;
+  }
+
+  .logo-background {
+    padding: 3rem 0.5rem;
+  }
+}
