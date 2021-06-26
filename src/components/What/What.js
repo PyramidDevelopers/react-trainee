@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../../ThemeContext";
 import "./What.css";
 import UpperImage from "../../assets/what-upper.png";
 import LowerImage from "../../assets/what-lower.png";
 import LeftImage from "../../assets/what-left.png";
 
 function What() {
+  const { count } = useContext(ThemeContext);
   return (
     <div className="container center" id="what">
       <div className="what-container">
@@ -22,9 +24,12 @@ function What() {
           </div>
         </section>
         <section className="what-right">
-          <div className="what-title">
+          <div className={`what-title theme-${count}-color`}>
             <h2>
-              WHAT DO WE DO <span className="question-mark">?</span>
+              WHAT DO WE DO{" "}
+              <span className={`question-mark theme-${count}-background`}>
+                ?
+              </span>
             </h2>
             <p className="what-info">
               We make highly customised mobile applications which are <br />

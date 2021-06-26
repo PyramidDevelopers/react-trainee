@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../../ThemeContext";
 import "./Form.css";
 import KeyboardReturnIcon from "@material-ui/icons/KeyboardReturn";
 import { useState } from "react";
 
 function Form() {
+  const { count } = useContext(ThemeContext);
+
   const [formData, setFormData] = useState({
     userName: "",
     userEmail: "",
@@ -26,7 +29,7 @@ function Form() {
       <form onSubmit={handleSubmit}>
         <div className="form-input-area">
           <div className="input">
-            <p>Your Name</p>
+            <p className={`theme-${count}-color`}>Your Name</p>
             <input
               type="text"
               name="userName"
@@ -36,7 +39,7 @@ function Form() {
             />
           </div>
           <div className="input">
-            <p>Your Email</p>
+            <p className={`theme-${count}-color`}>Your Email</p>
             <input
               type="text"
               name="userEmail"
@@ -46,7 +49,7 @@ function Form() {
             />
           </div>
           <div className="input">
-            <p>Your Phone No</p>
+            <p className={`theme-${count}-color`}>Your Phone No</p>
             <input
               type="text"
               name="userPhoneNumber"
@@ -56,7 +59,7 @@ function Form() {
             />
           </div>
           <div className="input">
-            <p>Your Query</p>
+            <p className={`theme-${count}-color`}>Your Query</p>
             <textarea
               name="userQuery"
               value={formData.userQuery}
@@ -66,7 +69,7 @@ function Form() {
           </div>
         </div>
         <div className="form-submit">
-          <button className="formButton">
+          <button className={`formButton theme-${count}-background`}>
             <KeyboardReturnIcon />
             <br />
             SUBMIT

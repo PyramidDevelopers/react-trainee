@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../../ThemeContext";
 import { Link } from "react-scroll";
 import { LinkedIn, Facebook, Instagram } from "@material-ui/icons";
 import "./Footer.css";
 import ClickMe from "./ClickMe";
 
 function Footer() {
+  const { count } = useContext(ThemeContext);
   return (
-    <div className="footer-background">
+    <div className={`footer-background theme-${count}-background`}>
       <div className="container center footer-margin">
         <div className="footer-container">
           <ClickMe />

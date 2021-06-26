@@ -4,7 +4,6 @@ import { ThemeContext } from "../../ThemeContext";
 
 function HeaderButton() {
   const { count, toggleTheme } = useContext(ThemeContext);
-  console.log(count);
   return (
     <div className="header-button-container">
       <button

@@ -5,6 +5,7 @@
 }
 
 .team-title {
+  color: var(--text-grey);
   font-family: "OCRAExtended", sans-serif;
   font-size: 1rem;
   text-align: center;
@@ -22,7 +23,6 @@
 @media (min-width: 650px) {
   .team-title {
     font-size: 2.5rem;
-    color: var(--text-grey);
   }
   .team-members {
     color: var(--orange);

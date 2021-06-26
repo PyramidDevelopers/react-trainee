@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../../ThemeContext";
 import "./Contact.css";
 import Form from "./Form";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import PhoneIcon from "@material-ui/icons/Phone";
 
 function Contact() {
+  const { count } = useContext(ThemeContext);
   return (
     <div className="container center" id="contact">
       <div className="contact-container">
@@ -13,7 +15,7 @@ function Contact() {
         </div>
         <div className="contact-flex">
           <section className="contact-left">
-            <p className="contact-desc">
+            <p className={`contact-desc theme-${count}-color`}>
               Our eagerness to work with you will reflect in our
               <br />
               promptness when you contact us. Do not hesitate to
@@ -31,6 +33,7 @@ function Contact() {
                   target="_blank"
                   href="https://bit.ly/PyramidDevelopersRecruitment"
                   rel="noreferrer"
+                  className={`theme-${count}-color`}
                 >
                   Looking to work with us? &gt;&gt;&gt;
                 </a>
@@ -45,7 +48,9 @@ function Contact() {
             </div>
             <div className="contact-details">
               <div className="contact-mail">
-                <div className="contact-mail-icon contact-icon-background">
+                <div
+                  className={`contact-mail-icon contact-icon-background theme-${count}-background`}
+                >
                   <MailOutlineIcon style={{ fontSize: 40 }} />
                   <br />
                   <span>MAIL</span>
@@ -53,20 +58,24 @@ function Contact() {
                 <div>
                   <a
                     href="mailto:developpyramid@gmail.com"
-                    className="contact-mail-address contact-address-background"
+                    className={`contact-mail-address contact-address-background theme-${count}-color`}
                   >
                     developpyramid@gmail.com
                   </a>
                 </div>
               </div>
               <div className="contact-phone">
-                <div className="contact-phone-icon contact-icon-background">
+                <div
+                  className={`contact-phone-icon contact-icon-background theme-${count}-background`}
+                >
                   <PhoneIcon style={{ fontSize: 40 }} />
                   <br />
                   <span>PHONE</span>
                 </div>
                 <div>
-                  <p className="contact-phone-number contact-address-background">
+                  <p
+                    className={`contact-phone-number contact-address-background theme-${count}-color`}
+                  >
                     9845309776
                   </p>
                 </div>

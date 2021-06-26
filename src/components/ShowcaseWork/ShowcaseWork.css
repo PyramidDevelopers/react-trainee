@@ -5,6 +5,7 @@
 }
 
 .showcase-title {
+  color: var(--text-grey);
   font-family: "OCRAExtended", sans-serif;
   text-align: center;
 }
@@ -47,7 +48,6 @@
 
   .showcase-title {
     font-size: 2rem;
-    color: var(--text-grey);
     margin-bottom: 0;
   }
 

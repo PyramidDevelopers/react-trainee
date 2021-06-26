@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useContext } from "react";
+import { ThemeContext } from "../../ThemeContext";
 import "./About.css";
 import UpperImage from "../../assets/who-upper.png";
 import LowerImage from "../../assets/who-lower.png";
@@ -8,14 +9,16 @@ import Instagram from "@material-ui/icons/Instagram";
 import Facebook from "@material-ui/icons/Facebook";
 
 function About() {
+  const { count } = useContext(ThemeContext);
   return (
     <div className="container center" id="about">
       <div className="about-container">
         <section className="about-left">
-          <h2 className="about-title">
-            WHO ARE WE <span className="question-mark">?</span>
+          <h2 className={`about-title theme-${count}-color`}>
+            WHO ARE WE{" "}
+            <span className={`question-mark theme-${count}-background`}>?</span>
           </h2>
-          <p className="about-info">
+          <p className={`about-info theme-${count}-color`}>
             Simply put, college students looking to make it big.
             <br />
             We develop apps, make websites, design interfaces, <br />
@@ -45,7 +48,7 @@ function About() {
                   href="https://www.linkedin.com/company/pyramid-developers/"
                   target="_blank"
                   rel="noreferrer"
-                  className="about-social-default-background"
+                  className={`about-social-default-background theme-${count}-background`}
                 >
                   <LinkedIn
                     className="about-social-icon"
@@ -58,7 +61,7 @@ function About() {
                   href="http://www.instagram.com/pyramid_developers/"
                   target="_blank"
                   rel="noreferrer"
-                  className="about-social-default-background"
+                  className={`about-social-default-background theme-${count}-background`}
                 >
                   <Instagram
                     className="about-social-icon"
@@ -71,7 +74,7 @@ function About() {
                   href="https://www.facebook.com/PyramidDeveloper"
                   target="_blank"
                   rel="noreferrer"
-                  className="about-social-default-background"
+                  className={`about-social-default-background theme-${count}-background`}
                 >
                   <Facebook
                     className="about-social-icon"

@@ -1,15 +1,14 @@
 import React, { useContext } from "react";
-import logo from "../../assets/Group-8.svg";
 import { ThemeContext } from "../../ThemeContext";
+import Logo from "../Header/Logo";
 import "./ClickMe.css";
 
 function ClickMe() {
   const { count, toggleTheme } = useContext(ThemeContext);
-  console.log(count);
   return (
     <button className="clickme-btn" onClick={toggleTheme}>
-      <img className="clickme-logo" src={logo} alt="Pyramid Developers Logo" />
-      <span className="clickme-text">
+      <Logo />
+      <span className={`clickme-text theme-${count}-color`}>
         Click <br />
         Me&gt;
       </span>
