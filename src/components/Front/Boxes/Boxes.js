@@ -1,5 +1,3 @@
-import './Boxes.css';
-
 const TYPE = [
     'small-black-box',
     'wide-black-box',

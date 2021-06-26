@@ -4,12 +4,12 @@
     display: flex;
     align-items: center;
     /* position: fixed; */
+    width: 100%;
 }
 .content--titletext{
     color: var(--body-color);
     margin: 0;
     font-size: 3.5rem;
-    /* font-size: calc(2vw + 2vh); */
     font-family: titleFont;
     letter-spacing: -0.12em;
     padding-right: 5px;
@@ -30,7 +30,7 @@
     /* display: inline-block; */
 }
 .content--para{
-    max-width: 30vw;
+    max-width: auto;
     /* line-height: calc(.8vw + .8vh); */
     line-height: 1.3rem;
     font-size: 1.2rem;
@@ -40,11 +40,68 @@
     margin-top: 100px;
     /* display: inline-block; */
     color: var(--body-color);
+    width: auto;
+    white-space: pre-line;
 }
 .content--para2{
     margin-top: 30px;
     /* display: inline-block; */
     color: var(--lightgrey);
+    width: 100%;
+    white-space: pre-line;
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px){
+    .content--title{
+        /*center align divs inside another*/
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .content--titletext{
+        font-size: 4.5rem;
+    }
+    .content--question{
+        font-size: 3.5rem;
+    }
+    .content--para{
+        width: 100%;
+        text-align: center;
+        line-height: 2.4rem;
+        font-size: 2.2rem;
+        padding: 0 10rem;
+        margin-bottom: 8rem;
+    }
+    .content--para1{
+        white-space: normal;
+    }
+    .content--para2{
+        white-space: normal;
+    }
+}
+@media screen and (min-width: 500px) {
+    .content--titletext{
+        font-size: 5rem;
+    }
+    .content--question{
+        font-size: 3.5rem;
+    }
+    .content--para{
+        line-height: 1.9rem;
+        font-size: 1.7rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .content--titletext{
+        font-size: 4rem;
+    }
+    .content--question{
+        font-size: 3.5rem;
+    }
+    .content--para{
+        line-height: 1.5rem;
+        font-size: 1.3rem;
+    }
 }
 @media screen and (min-width: 1383px) {
     .content--titletext{

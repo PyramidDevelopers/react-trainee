@@ -3,6 +3,7 @@
 .form__overall{
     display: flex;
     margin: 0 auto;
+    width: auto;
 }
 .textbox label, .textarea label{
     display: block;
@@ -13,17 +14,17 @@
     color: var(--body-color);
     padding: 5px 15px;
     background-color: var(--grey);
-    width: 35vw;
+    width: auto;
 }
 .textbox, .textarea{
-    width: 35vw;
+    width: auto;
     border-radius: 15px;
     margin: 20px;
     margin-top: 0;
     background-color: var(--grey)j;
 }
 .textbox input, .textarea textarea{
-    width: 35vw;
+    width: 100%;
     border: 0;
     font-size: 1.6rem;
     color:  var(--body-color);
@@ -35,25 +36,33 @@
 }
 .textarea textarea{
     resize: none;
-    height: 25vh;
+    height: 13rem;
 }
 .form__right{
     padding-top: 8rem;
 }
 .form__button button{
-    height: 28vh;
+    height: 14rem;
     width: 6rem;
     background-color: var(--body-color);
     border-radius: 15px;
-    color: var(--main-color);
-    font-size: 1.6rem;
-    font-family: titleFont;
-    letter-spacing: -0.12em;
-    padding-top: 15vh;
+    /* padding-top: 15vh; */
     cursor: pointer;
     border: 0;
     margin-top: 10px;
     margin-left: 5px;
+    position: relative;
+}
+.form__button button > div{
+    position: absolute;
+    bottom: 0;
+    background-color: var(--body-color);
+    color: var(--main-color);
+    font-size: 1.6rem;
+    font-family: titleFont;
+    letter-spacing: -0.12em;
+    padding: 0.4rem;
+    padding-bottom: 2rem;
 }
 .form__button button i{
     width: 100%;
@@ -66,6 +75,15 @@ input:focus, textarea:focus, select:focus{
 }
 
 
-@media screen and (min-width: 1024px) {
-    
+@media screen and (min-width: 1850px){
+    .form__button button{
+        width: 7.8rem;
+    }
+    .form__button button > div{
+        font-size: 2rem;
+        font-family: titleFont;
+        letter-spacing: -0.12em;
+        padding: 0.4rem;
+        padding-bottom: 2rem;
+    }
 }

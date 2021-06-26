@@ -67,7 +67,39 @@
     margin: .625rem;
 }
 
-@media screen and (min-width: 1850px) {
+/*remove later*/
+@media screen and (min-width: 350px) and (max-width: 420px){
+    .wide-black-box{
+        width: 14.375rem;
+        height: 6.4rem;
+    }
+    .small-black-box{
+        width: 5.8rem;
+        height: 6.4rem;
+    }
+    .long-black-box{
+        width: 5.8rem;
+        height: 14rem;
+    }
+    .small-black-invisible-box{
+        width: 5.8rem;
+        height: 6.4rem;
+    }
+    .wide-black-invisible-box{
+        width: 14.375rem;
+        height: 6.4rem;
+    }
+    .long-black-invisible-box{
+        width: 5.8rem;
+        height: 18rem;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 499px){
+    .mobile{
+        display: none;
+    }
+}
+@media screen and (min-width: 1850px){
     .wide-black-box{
         width: 16.375rem;
         height: 10.4rem;

@@ -17,10 +17,14 @@
 }
 .centerRightBottom > .texts{
     font-family: titleFont;
-    /* letter-spacing: -0.12em; */
     font-size: 2.5rem;
     padding-right: 5px;
     margin-top: 2rem;
     margin-left: 6rem;
     color: var(--body-color);
+}
+@media screen and (min-width: 1850px) {
+    .click-me-box > .texts{
+        font-size: 2rem;
+    }
 }

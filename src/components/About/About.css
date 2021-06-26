@@ -2,10 +2,11 @@
 
 .about{
     display: flex;
+    width: 100%;
 }
 .about--para{
     margin-left: 8vw;
-    width: 30vw;
+    width: auto;
     margin-right: 5vw;
     /* added */
     justify-content: center;
@@ -29,16 +30,16 @@
     object-fit: fill;
     border-radius: 15px;
 }
+.about--imageparent{
+    margin: 0 auto;
+}
 .about--images{
     /* added */
     margin: 0 auto;
     display: flex;
-    /* position: absolute;
-    right: 10rem; */
 }
 .logos i{
     font-size: 3rem;
-    /* font-size: calc(1.8vw + 1.8vh); */
     background-color: var(--body-color);
     padding: 25px 20px;
     border-radius: 10px;
@@ -48,15 +49,41 @@
 .logos{
     display: flex;
 }
-/* .logos__logo{
-    margin: 5px;
-} */
+
+@media screen and (min-width: 300px) and (max-width: 499px){
+    .about{
+        display: block;
+        margin-bottom: 8rem;
+    }
+    .about--imageparent{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .about--imgleft{
+        display: flex;
+    }
+    .img__upperlower{
+        width: 24.75rem;
+        height: 20.875rem;
+    }
+    .logos{
+        display: block;
+    }
+    .about--imgRight{
+        display: flex;
+    }
+}
+@media screen and (min-width: 500px) {
+    .logos i{
+        font-size: 4rem;
+    }
+}
 @media screen and (min-width: 1384px) {
     .logos i{
         font-size: 3.6rem;
     }
 }
-
 @media screen and (min-width: 1850px) {
     .logos i{
         font-size: 4.5rem;

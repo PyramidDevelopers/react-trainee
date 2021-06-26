@@ -1,6 +1,6 @@
 import { LeftBottom, LeftTop, LeftMiddle } from "../Items";
 import Boxes from '../Boxes/Boxes';
-import './Left.css';
+
 const Left = () => {
     return (
         <div className="front__left">

@@ -41,7 +41,28 @@
     margin-top: -12%;
 }
 
-
+@media screen and (min-width: 300px) and (max-width: 499px){
+    .team__title{
+        font-size: 4.5rem;
+    }
+}
+@media screen and (min-width: 500px){
+    .team__left__boxes > .small-black-box{
+        margin-top: 3rem;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+    .team__title{
+        font-size: 5rem;
+        letter-spacing: -0.12em;
+    }
+}
+@media screen and (min-width: 763px)  {
+    .team__left__boxes > .small-black-box{
+        /* margin-top: -18%; */
+        margin-top: -2.2rem;
+    }
+}
 @media screen and (min-width: 1825px) {
     .team__left > .long-black-box{
         margin-left: 2%;

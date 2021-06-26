@@ -5,9 +5,9 @@ import lower from "../../assets/who-lower.png";
 import right from "../../assets/who-right.png"
 
 const About = () => {
-    const para1 = "Simply put, college students looking to make it big. We develop apps, make website, design interfaces, create backend architecture and much more.";
+    const para1 = `Simply put, college students looking to make it big. \n We develop apps, make website, design interfaces, \n create backend architecture and much more.`;
 
-    const para2 = "We may still be in college but we bring a vast skillset to the table. We have made comprehensive and quality digital products for numerous clients.";
+    const para2 = `We may still be in college but we bring a vast \n skillset to the table. We have made comprehensive \n and quality digital products for numerous clients.`;
     
     const title = "WHO ARE WE";
 
@@ -17,9 +17,10 @@ const About = () => {
             <div className="about--para">
                 <Content title={title} para1={para1} para2={para2}/>
             </div>
+            <div className="about--imageparent">
             <div className="about--images">
                 <div className="about--block">
-                    <div className="small-black-box">
+                    <div className="small-black-box mobile">
                     </div>
                 </div>
                 <div className="about--imgleft">
@@ -30,6 +31,7 @@ const About = () => {
                         <img src={lower} alt="" className="img__upperlower"/>
                     </div>
                 </div>
+                
                 <div className="about--imgRight">
                     <div className="logos">
                         <div className="logos__logo">
@@ -46,6 +48,7 @@ const About = () => {
                         <img src={right} alt="" className="img__right"/>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     );

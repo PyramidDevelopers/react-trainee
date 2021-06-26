@@ -20,10 +20,10 @@ const Team = () => {
                 <div className="body__mainteam">
                 <div className="team__left">
                     <div className="team__left__boxes">
-                        <div className="small-black-invisible-box"></div>
-                        <div className="small-black-box"></div>
+                        <div className="small-black-invisible-box mobile"></div>
+                        <div className="small-black-box mobile"></div>
                     </div>
-                    <div className="long-black-box"></div>
+                    <div className="long-black-box mobile"></div>
                 </div>
                 <div className="team__middle">
                     {teams.map((team, index)=>(
@@ -31,7 +31,7 @@ const Team = () => {
                     ))}
                 </div>
                 <div className="team__right">
-                    <div className="wide-black-box"></div>
+                    <div className="wide-black-box mobile"></div>
                 </div>
                 </div>
             </div>

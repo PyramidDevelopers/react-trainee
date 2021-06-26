@@ -5,7 +5,7 @@ export const ThemeContext = createContext();
 
 const ThemeContextProvider = (props) => {
     const [key, setKey] = useState(0);
-    const [color, setColor] = useState(
+    const color = 
         [
             "#ffca60",
             "#FF60BB",
@@ -16,7 +16,7 @@ const ThemeContextProvider = (props) => {
             "#60EFFF",
             "#FF7660",
         ]
-    );
+
 
     const changeKey = () => {
         let i = key;

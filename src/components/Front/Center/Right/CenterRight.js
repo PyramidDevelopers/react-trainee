@@ -2,7 +2,6 @@ import Boxes from '../../Boxes/Boxes';
 import {CenterRightTop, CenterRightMiddle, CenterRightBottom} from '../../Items';
 import './CenterRight.css';
 import { ThemeContext } from '../../../../contexts/ThemeContext';
-import { useState } from 'react';
 
 
 const CenterRight = () => {
@@ -11,7 +10,7 @@ const CenterRight = () => {
             const {key, color, changeKey} = context;
             const changeTheme = () => {
                 changeKey();
-                if(key+1==8){
+                if(key+1===8){
                     document.documentElement.style.setProperty('--body-color',color[0]);
                 }
                 else{

@@ -28,7 +28,7 @@ const Form = ({texts, textAreas}) => {
                     <div className="form__right">
                         <div className="small-black-box"></div>
                         <div className="form__button">
-                            <button><i className="fas fa-greater-than"></i>SUBMIT</button>
+                            <button><div><i className="fas fa-greater-than"></i>SUBMIT</div></button>
                         </div>
                     </div>
                 </div>

@@ -24,7 +24,6 @@
     width: 20%;
     margin: 0 0;
     height: 30rem;
-
 }
 .logo__logo img{
     width: 60%;
@@ -42,12 +41,14 @@
 }
 .footer__logo .long-black-box{
     height: 60%;
+    position: relative;
 }
 .logo__click{
     letter-spacing: -0.12rem;
     font-size: 1.5rem;
     padding: 8%;
-    margin-top: 100%;
+    position: absolute;
+    bottom: 0;
 }
 .footer__main{
     /* width: 30%; */
@@ -70,9 +71,13 @@
 }
 .footer__links{
     margin: 0 auto;
+    margin-right: 5rem;
 }
 .footer__links .footer__title{
     padding-right: 30px;
+}
+.footer__formobile{
+    display: flex;
 }
 .footer__connected{
     margin: 0 auto;
@@ -93,12 +98,38 @@
 }
 .footer__social i{
     font-size: 3rem;
-    /* font-size: calc(1.8vw + 1.8vh); */
     background-color: var(--body-color);
     padding: 10px 10px 0 0;
     border-radius: 10px;
     color: var(--main-color);
     margin: 10px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px){
+    .footer__logo{
+        margin-right: 3rem;
+    }
+    .footer__contents{
+        display: block;
+    }
+    .footer__first{
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+    .footer__title{
+        margin-bottom: 3%;
+    }
+    .footer__inside{
+        margin-bottom: -15rem;
+    }
+    .footer__links {
+        margin: 0 0;
+    }
+    .footer__logo{
+        width: 20%;
+        margin: 0 0;
+        height: 48rem;
+    }
 }
 @media screen and (min-width: 1836px) {
     .footer__inside{

@@ -68,6 +68,16 @@
     margin-left: 6rem;
 }
 
+@media screen and (min-width: 300px) and (max-width: 499px){
+    .heading__title{
+        font-size: 4.5rem;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1024px) {
+    .heading__title{
+        font-size: 5rem;
+    }
+}
 @media screen and (min-width: 1900px) {
     .body__left .wide-black-box{
         height: 7%;
