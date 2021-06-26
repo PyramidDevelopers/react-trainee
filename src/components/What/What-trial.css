@@ -1,0 +1,70 @@
+@import url(../../index.css);
+
+.what{
+    display: flex;
+    margin-bottom: 10%;
+}
+.what__left{
+    width: 60vw;
+}
+.upper__left{
+    display: flex;
+    margin-right: 5vw;
+}
+.what__left .boxes{
+    display: grid;
+    align-items: end;
+    justify-items: end;
+}
+.what__image{
+    display: flex;
+}
+.what__leftbox{
+    align-items: end;
+}
+.small-black-box{
+    margin: 5px;
+}
+.what__leftimg{
+    display: grid;
+    justify-items: end;
+    align-items: end;
+}
+.image-left img{
+    max-height: 15rem !important;
+    width: auto;
+    display: grid;
+    justify-items: start;
+    align-items: start;
+    /* max-width: 100% !important;
+    height: auto; */
+}
+.top__right img{
+    /* height: 15rem !important;
+    width: auto; */
+    max-height: 100vh !important;
+    width: auto;
+}
+.what__rightimg > img{
+    /* height: 17rem !important;
+    width: auto; */
+    max-height: 100vh !important;
+    width: auto;
+}
+.top__right{
+    display: flex;
+}
+.right__small__box{
+    display: grid;
+    align-items: end;
+}
+.what__left > .wide-black-box{
+    float: right;
+    margin-top: 10px;
+}
+.what__content{
+    width: 40vw;
+    margin-right: 12vw;
+    margin-top: 15vh;
+    margin-left: 4vw;
+}

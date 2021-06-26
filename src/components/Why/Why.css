@@ -1,0 +1,102 @@
+@import url(../../index.css);
+
+.why{
+    display: flex;
+    margin-bottom: 10%;
+}
+.why__body{
+    /* margin-left: 8vw;
+    max-width: 40vw;
+    margin-right: 5vw; */
+    /* margin: 0 auto auto 8vw; */
+    /* width: auto;
+    margin: 0 auto; */
+    margin-left: 8vw;
+    width: auto;
+    margin-right: 5vw;
+    /* added */
+    justify-content: center;
+    margin: 0 3vw 0 auto;
+}
+.why__right{
+    display: flex;
+    /*might wanna delete this*/
+    /* position: absolute;
+    right: 0; */
+    margin: auto;
+}
+.why__right > .left{
+    display: grid;
+    justify-items: end;
+}
+/* .left > .wide-black-box{
+    margin-top: -15px;
+} */
+.right > .small-black-box{
+    margin: 10px;
+}
+.right > .last__box{
+    margin-top: 100px;
+}
+.left__img{
+    /* height: 22rem !important; */
+    max-width: 22.75rem;
+    height: 28.063rem;
+}
+.right__img{
+    max-width: 13.375rem;
+    height: 17.25rem;
+}
+.display__mobile{
+    display: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px){
+    .why{
+        display: block;
+    }
+    .why__right{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+    }
+    .why__right>.left{
+        order: 3;
+    }
+    .display__mobile{
+        display: block;
+        order: 2;
+    }
+    .why__right>.middle{
+        order: 1;
+    }
+    .left__img{
+        max-width: 24.75rem;
+        height: 20.938rem;
+    }
+    .right__img{
+        max-width: 20.375rem;
+        height: 20.938rem;
+    }
+}
+@media screen and (min-width: 420px) and (max-width: 499px){
+    .left__img{
+        max-width: 24.75rem;
+        height: 26.938rem;
+    }
+    .right__img{
+        max-width: 20.375rem;
+        height: 26.938rem;
+    }
+}
+@media screen and (min-width: 1850px) {
+    .left__img{
+        max-width: 24.75rem;
+        height: 31.063rem;
+    }
+    .right__img{
+        max-width: 16.375rem;
+        height: 20.25rem;
+    }
+}

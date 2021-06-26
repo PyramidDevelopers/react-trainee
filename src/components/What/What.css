@@ -1,0 +1,141 @@
+@import url(../../index.css);
+
+.what{
+    display: flex;
+    margin-bottom: 10%;
+}
+.what__left{
+    margin: 0 auto;
+    /* position: absolute;
+    left: 5%; */
+}
+.upper__left{
+    display: flex;
+    margin-right: 5vw;
+}
+.what__left .boxes{
+    display: grid;
+    align-items: end;
+    justify-items: end;
+    /* added */
+    margin: 0 auto;
+}
+.what__image{
+    display: flex;
+}
+.what__leftbox{
+    align-items: end;
+}
+.small-black-box{
+    /* margin: 5px; */
+}
+.what__leftimg{
+    display: grid;
+    justify-items: end;
+    align-items: end;
+}
+.image-left img{
+    max-width: 12.938rem;
+    height: 26.938rem;
+    display: grid;
+    justify-items: start;
+    align-items: start;
+}
+.top__right img{
+    max-width: 13.375rem;
+    height: 17.938rem;
+}
+.what__rightimg > img{
+    max-width: 22.063rem;
+    height: 17.688rem;
+}
+.top__right{
+    display: flex;
+}
+.right__small__box{
+    display: grid;
+    align-items: end;
+}
+.what__left > .wide-black-box{
+    float: right;
+    margin-top: 10px;
+}
+.what__content{
+    width: auto;
+    margin-right: 12vw;
+    margin-top: 15vh;
+    margin-left: 4vw;
+    margin: auto auto;
+}
+.what___boxes{
+    display: none;
+}
+/* @media screen and (min-width: 1384px) {
+    .what__content{
+        width: auto;
+    }
+} */
+@media screen and (min-width: 300px) and (max-width: 499px){
+    .what{
+        display: flex; 
+        flex-direction: column; 
+    }
+    .what__left{
+        order: 2;
+    }
+    .what__content{
+        order: 1;
+    }
+    .what__rightimg{
+        display: flex;
+    }
+    .what___boxes{
+        display: block;
+    }
+    .image-left img{
+        max-width: 15.938rem;
+        height: 20.938rem;
+        display: grid;
+        justify-items: start;
+        align-items: start;
+    }
+    .top__right img{
+        max-width: 16.375rem;
+        height: 20.938rem;
+    }
+    .what__rightimg > img{
+        max-width: 25.063rem;
+        height: 20.688rem;
+    }
+}
+@media screen and (min-width: 420px) and (max-width: 499px){
+    .image-left img{
+        max-width: 15.938rem;
+        height: 26.938rem;
+    }
+    .top__right img{
+        max-width: 18.375rem;
+        height: 26.938rem;
+    }
+    .what__rightimg > img{
+        max-width: 32.063rem;
+        height: 26.938rem;
+    }
+}
+@media screen and (min-width: 1850px) {
+    .image-left img{
+        max-width: 15.938rem;
+        height: 31.938rem;
+        display: grid;
+        justify-items: start;
+        align-items: start;
+    }
+    .top__right img{
+        max-width: 16.375rem;
+        height: 20.938rem;
+    }
+    .what__rightimg > img{
+        max-width: 25.063rem;
+        height: 20.688rem;
+    }
+}

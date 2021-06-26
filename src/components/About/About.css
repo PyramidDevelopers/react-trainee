@@ -1,0 +1,100 @@
+@import url(../../index.css);
+
+.about{
+    display: flex;
+    width: 100%;
+}
+.about--para{
+    margin-left: 8vw;
+    width: auto;
+    margin-right: 5vw;
+    /* added */
+    justify-content: center;
+    margin: 0 3vw 0 auto;
+}
+.about--block{
+    display: grid;
+    align-items: end;
+}
+.img__upperlower{
+    width: 20.75rem;
+    height: 16.875rem;
+    margin: .625rem;
+    object-fit: fill;
+    border-radius: 15px;
+}
+.img__right{
+    width: 16.375rem;
+    height: 20.938rem;
+    margin: .625rem;
+    object-fit: fill;
+    border-radius: 15px;
+}
+.about--imageparent{
+    margin: 0 auto;
+}
+.about--images{
+    /* added */
+    margin: 0 auto;
+    display: flex;
+}
+.logos i{
+    font-size: 3rem;
+    background-color: var(--body-color);
+    padding: 25px 20px;
+    border-radius: 10px;
+    color: var(--main-color);
+    margin: 10px;
+}
+.logos{
+    display: flex;
+}
+
+@media screen and (min-width: 300px) and (max-width: 499px){
+    .about{
+        display: block;
+        margin-bottom: 8rem;
+    }
+    .about--imageparent{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .about--imgleft{
+        display: flex;
+    }
+    .img__upperlower{
+        width: 24.75rem;
+        height: 20.875rem;
+    }
+    .logos{
+        display: block;
+    }
+    .about--imgRight{
+        display: flex;
+    }
+}
+@media screen and (min-width: 500px) {
+    .logos i{
+        font-size: 4rem;
+    }
+}
+@media screen and (min-width: 1384px) {
+    .logos i{
+        font-size: 3.6rem;
+    }
+}
+@media screen and (min-width: 1850px) {
+    .logos i{
+        font-size: 4.5rem;
+        padding: 35px 30px;
+    }
+    .img__upperlower{
+        width: 24.75rem;
+        height: 20.875rem;
+    }
+    .img__right{
+        width: 20.375rem;
+        height: 24.938rem;
+    }
+}

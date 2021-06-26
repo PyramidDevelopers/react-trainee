@@ -1,0 +1,30 @@
+@import url(../../../../index.css);
+
+.click-me-box{
+    background-color: var(--body-color);
+    cursor: pointer;
+    position: relative;
+}
+.click-me-box > .texts{
+    background-color: var(--body-color);
+    font-family: titleFont;
+    color: var(--main-color);
+    letter-spacing: -0.12em;
+    font-size: 1.5rem;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+}
+.centerRightBottom > .texts{
+    font-family: titleFont;
+    font-size: 2.5rem;
+    padding-right: 5px;
+    margin-top: 2rem;
+    margin-left: 6rem;
+    color: var(--body-color);
+}
+@media screen and (min-width: 1850px) {
+    .click-me-box > .texts{
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,43 @@
+@import url(../../index.css);
+
+.images > img{
+    max-width: 14.25rem;
+    height: auto;
+    margin: .625rem;
+    object-fit: contain;
+}
+.images__title{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: titleFont;
+    color: var(--body-color);
+    margin-bottom: 5px;
+    letter-spacing: -0.12em;
+}
+.images__desig{
+    font-family: titleFont;
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--body-color);
+    letter-spacing: -0.12em;
+}
+
+@media screen and (min-width: 500px) and (max-width: 762px){
+    .images > img{
+        max-width: 35.25rem;
+    }
+    /* .images__title{
+        font-size: 2rem;
+        letter-spacing: -0.12em;
+    }
+    .images__desig{
+        font-size: 1.2rem;
+        letter-spacing: -0.12em;
+    } */
+}
+@media screen and (min-width: 1850px) {
+    .images > img{
+        max-width: 20.25rem;
+    }
+}

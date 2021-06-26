@@ -1,0 +1,127 @@
+@font-face {
+    font-family: titleFont;
+    src: url(./fonts/OCRAEXT.TTF);
+}
+@font-face {
+    font-family: bodyFont;
+    src: url(./fonts/isocpeur.ttf);
+}
+:root {
+    --main-color: #222629;
+    --grey: #2b2f32;
+    --lightgrey: #adadad;
+    --body-color: #ffca60;
+}
+.small-black-box{
+    /* width: 6rem;
+    height: 8rem; */
+    width: 6rem;
+    height: 8.563rem;
+    background-color: var(--grey);
+    border-radius: 15px;
+    margin: .625rem;
+}
+.small-black-invisible-box{
+    /* width: 6rem;
+    height: 8rem; */
+    width: 6rem;
+    height: 8.563rem;
+    background-color: var(--main-color);
+    border-radius: 15px;
+    margin: .625rem;
+}
+.wide-black-box{
+    /* width: 9.563rem; */
+    width: 13.375rem;
+    height: 8.563rem;
+    /* height: 6rem; */
+    /* width: calc(4.5vw + 4.5vh);
+    height: calc(3vw + 3vh); */
+    background-color: var(--grey);
+    border-radius: 15px;
+    margin: .625rem;
+}
+.wide-black-invisible-box{
+    /* width: 9.563rem; */
+    width: 13.375rem;
+    height: 8.563rem;
+    /* height: 6rem; */
+    /* width: calc(4.5vw + 4.5vh);
+    height: calc(3vw + 3vh); */
+    background-color: var(--main-color);
+    border-radius: 15px;
+    margin: .625rem;
+}
+.long-black-box{
+    width: 6rem;
+    height: 18.4rem;
+    background-color: var(--grey);
+    border-radius: 15px;
+    margin: .625rem;
+}
+.long-black-invisible-box{
+    width: 6rem;
+    height: 18.4rem;
+    background-color: var(--main-color);
+    border-radius: 15px;
+    margin: .625rem;
+}
+
+/*remove later*/
+@media screen and (min-width: 350px) and (max-width: 420px){
+    .wide-black-box{
+        width: 14.375rem;
+        height: 6.4rem;
+    }
+    .small-black-box{
+        width: 5.8rem;
+        height: 6.4rem;
+    }
+    .long-black-box{
+        width: 5.8rem;
+        height: 14rem;
+    }
+    .small-black-invisible-box{
+        width: 5.8rem;
+        height: 6.4rem;
+    }
+    .wide-black-invisible-box{
+        width: 14.375rem;
+        height: 6.4rem;
+    }
+    .long-black-invisible-box{
+        width: 5.8rem;
+        height: 18rem;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 499px){
+    .mobile{
+        display: none;
+    }
+}
+@media screen and (min-width: 1850px){
+    .wide-black-box{
+        width: 16.375rem;
+        height: 10.4rem;
+    }
+    .small-black-box{
+        width: 7.8rem;
+        height: 10.4rem;
+    }
+    .long-black-box{
+        width: 7.8rem;
+        height: 22rem;
+    }
+    .small-black-invisible-box{
+        width: 7.8rem;
+        height: 10.4rem;
+    }
+    .wide-black-invisible-box{
+        width: 16.375rem;
+        height: 10.4rem;
+    }
+    .long-black-invisible-box{
+        width: 7.8rem;
+        height: 22rem;
+    }
+}

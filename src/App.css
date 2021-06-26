@@ -1,0 +1,66 @@
+@import url(./index.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: bodyFont;
+    background-color: var(--main-color);
+    color: #fff;
+    overflow-x: hidden;
+}
+img{
+    margin: .625rem;
+}
+
+
+@media screen and (min-width: 350px) {
+    .app {
+        zoom: 25%;
+    }
+}
+@media screen and (min-width: 630px) {
+    .app {
+        zoom: 33%;
+    }
+}
+@media screen and (min-width: 682px) {
+    .app {
+        zoom: 36%;
+    }
+}
+@media screen and (min-width: 760px){
+    .app {
+        zoom: 45%;
+    }
+}
+@media screen and (min-width: 990px) {
+    .app {
+        zoom: 50%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .app {
+        zoom: 70%;
+    }
+}
+@media screen and (min-width: 1150px) {
+    .app {
+        zoom: 75%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .app {
+        zoom: 80%;
+    }
+}
+@media screen and (min-width: 1380px) {
+    .app {
+        zoom: 90%;
+    }
+}
+@media screen and (min-width: 1536px) {
+    .app {
+        zoom: 100%;
+    }
+}
