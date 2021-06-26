@@ -1,0 +1,38 @@
+@font-face {
+    font-family: OCRAExtended;
+    src: url('../../fonts/OCRAEXT.TTF');
+}
+
+.member {
+    display: flex;
+    flex-flow: column;
+    width: 240px;
+    justify-content: center;
+}
+
+.member-name {
+    margin: 2px 10px 2px;
+    font-family: OCRAExtended;
+    font-size: 25px;
+    letter-spacing: -3.3px;
+    color: #ffca60;
+    align-self: center;
+} 
+
+.member-designation {
+    margin: 3px 2px 50px;
+    font-family: OCRAExtended;
+    font-size: 13.5px;
+    letter-spacing: -1.8px;
+    align-self: center;
+    color: #ffca60;
+  }
+
+.member-image {
+    width: 230px;
+    height: 230px;
+    margin: 96px 5px 10px;
+    object-fit: contain;
+    border-radius: 15px;
+    align-self: center;
+} 

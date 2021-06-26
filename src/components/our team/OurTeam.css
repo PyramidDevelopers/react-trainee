@@ -1,0 +1,29 @@
+.team-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.rect-left-small {
+    width: 90px;
+    height: 115px;
+    margin: 211px 5px 70px;
+    border-radius: 15px;
+    background-color: #2b2f32;
+}
+
+.rect-left-big {
+    width: 90px;
+    height: 230px;
+    margin: 96px 5px 70px;
+    border-radius: 15px;
+    background-color: #2b2f32;
+}
+
+.rect-right {
+    width: 190px;
+    height: 115px;
+    margin: 96px 5px 185px;
+    border-radius: 15px;
+    background-color: #2b2f32;
+}

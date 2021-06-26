@@ -1,0 +1,68 @@
+@font-face {
+    font-family: OCRAExtended;
+    src: url('../../fonts/OCRAEXT.TTF');
+}
+
+@font-face {
+    font-family: ISOCPEUR;
+    src: url('../../fonts/isocpeur.ttf');
+}
+
+.information-text {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    /* width: 465px; */
+}
+
+.paragraph-1 {
+    margin-top: 81px;
+    margin-right: 10px;
+    width: 462px;
+    font-family: ISOCPEUR;
+    font-size: 20px;
+    line-height: 1.22;
+    color: #ffca60;
+}
+
+.paragraph-2 {
+    margin-top: 27px;
+    margin-right: 10px;
+    width: 462px;
+    font-family: ISOCPEUR;
+    font-size: 20px;
+    line-height: 1.22;
+    color: #adadad;
+  }
+
+.question-section {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+.question-title {
+    font-family: OCRAExtended;
+    font-size: 60px;
+    margin-right: 10px;
+    line-height: 1.04;
+    letter-spacing: -5px;
+    color: #ffca60;
+}
+
+.question-mark-rect {
+    height: 70px;
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 15px;
+    background-color: #ffca60;
+}
+
+.question-mark {
+    margin: 10px 5px 10px;
+    font-family: OCRAExtended;
+    font-size: 50px;
+    line-height: 1.03;
+    text-align: center;
+    color: #222629;
+}
