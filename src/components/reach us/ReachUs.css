@@ -125,12 +125,15 @@
     margin: 5px;
 }
 
-.reach-us-vertical-big-rect {
+.reach-us-submit-btn {
     width: 90px;
     height: 250px;
     border-radius: 15px;
     background-color: #ffca60;
     margin: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
 }
 
 .reach-us-rect-text {
@@ -194,4 +197,9 @@
     margin: 45px 10px 45px;
     text-align: left;
     color: #ffca60;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }

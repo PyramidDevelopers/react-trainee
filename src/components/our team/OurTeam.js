@@ -1,10 +1,11 @@
 import React from 'react'
 import './OurTeam.css'
-import {TeamMember} from './TeamMember'
+import { TeamMember } from './TeamMember'
 import DhruvImg from '../../assets/dhruv-shetty.png'
 import SamarthImg from '../../assets/samarth-kashyap.png'
 import AyushImg from '../../assets/ayush-kiran.png'
 import AnkitImg from '../../assets/ankit-mallya.png'
+import { Heading } from '../heading/Heading'
 
 export const OurTeam = () => {
   let teamMembersData = [
@@ -14,13 +15,16 @@ export const OurTeam = () => {
     { name: "Ankit Mallya", designation: "Legal", image: AnkitImg }
   ]
   return (
-    <div className="team-container">
-      <div className = "rect-left-small" />
-      <div className = "rect-left-big" />
-      {teamMembersData.map((memberData) => {
-        return <TeamMember memberData = {memberData} />
-      })}
-      <div className = "rect-right" />
+    <div id="team">
+      <Heading heading="OUR TEAM" />
+      <div className="team-container">
+        <div className="rect-left-small" />
+        <div className="rect-left-big" />
+        {teamMembersData.map((memberData) => {
+          return <TeamMember memberData={memberData} />
+        })}
+        <div className="rect-right" />
+      </div>
     </div>
   )
 }

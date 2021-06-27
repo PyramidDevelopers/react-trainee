@@ -1,0 +1,15 @@
+@font-face {
+    font-family: OCRAExtended;
+    src: url('../../fonts/OCRAEXT.TTF');
+}
+
+.heading-text {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-family: OCRAExtended;
+    font-size: 60px;
+    line-height: 1.04;
+    letter-spacing: -8px;
+    text-align: center;
+    color: #adadad;
+}

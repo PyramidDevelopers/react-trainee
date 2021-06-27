@@ -11,7 +11,7 @@ export const What = () => {
     let paragraph2 = "We use Flutter for our front end which is the latest framework by Google and Firebase for our backend which is one of the world's leading Backend services used by companies like Alibaba, Accenture and Twitch."
 
     return (
-        <div className = "what-section">
+        <div className = "what-section" id = "what">
             <div className="what-left-section">
                 <div className="what-left-top">
                     <div className="left-top-first-section">

@@ -10,7 +10,7 @@ export const Why = () => {
     let paragraph2 = "If you partner with Pyramid, We will ensure that you receive an end product that exceeds expectations. We follow Agile Development practices to ensure we fulfil our promises."
 
     return (
-        <div className="why-section">
+        <div className="why-section" id = "why">
             <InfoText question={question} paragraph1={paragraph1} paragraph2={paragraph2} />
             <div className="why-left-image-container">
                 <img src={leftImage} className="why-left-image" alt="" />

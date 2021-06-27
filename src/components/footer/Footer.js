@@ -15,9 +15,11 @@ export const Footer = () => {
 
     return (
         <div className="footer-section">
-            <div className="footer-logo-container">
-                <img src = {logoImage} className = "footer-logo" alt = "" />
-                <p className="footer-click-me">CLICK ME></p>
+            <div>
+                <button className="footer-logo-container">
+                    <img src={logoImage} className="footer-logo" alt="" />
+                    <p className="footer-click-me">CLICK ME></p>
+                </button>
             </div>
             <div className="footer-about-us-container">
                 <div className="footer-headings">ABOUT US</div>
@@ -25,13 +27,27 @@ export const Footer = () => {
             </div>
             <div className="footer-useful-links-container">
                 <div className="footer-headings">USEFUL LINKS</div>
-                <div className="footer-text">Who are we?</div>
-                <div className="footer-text">What do we do?</div>
-                <div className="footer-text">Show me what you got</div>
-                <div className="footer-text">Why choose us?</div>
-                <div className="footer-text">Our Team</div>
-                <div className="footer-text">Reach Us</div>
-                <div className="footer-text">Looking to work?</div>
+                <a href="#who" className="footer-links">
+                    <div className="footer-text">Who are we?</div>
+                </a>
+                <a href="#what" className="footer-links">
+                    <div className="footer-text">What do we do?</div>
+                </a>
+                <a className="footer-links">
+                    <div className="footer-text">Show me what you got</div>
+                </a>
+                <a href="#why" className="footer-links">
+                    <div className="footer-text">Why choose us?</div>
+                </a>
+                <a href="#team" className="footer-links">
+                    <div className="footer-text">Our Team</div>
+                </a>
+                <a href="#reach" className="footer-links">
+                    <div className="footer-text">Reach Us</div>
+                </a>
+                <a href="#reach" className="footer-links">
+                    <div className="footer-text">Looking to work?</div>
+                </a>
             </div>
             <div className="footer-stay-connected-container">
                 <div className="footer-headings">STAY CONNECTED</div>
@@ -40,9 +56,15 @@ export const Footer = () => {
                 <div className="footer-text">{phoneText}</div>
                 <div className="footer-text">{emailText}</div>
                 <div className="footer-icons-container">
-                    <LinkedInIcon style={{ fontSize: 55 }} className="footer-icon" />
-                    <InstagramIcon style={{ fontSize: 55 }} className="footer-icon" />
-                    <FacebookIcon style={{ fontSize: 55 }} className="footer-icon" />
+                    <a href="https://www.linkedin.com/company/pyramid-developers/" target="_blank" rel="noreferrer">
+                        <LinkedInIcon style={{ fontSize: 55 }} className="footer-icon" />
+                    </a>
+                    <a href="https://www.instagram.com/pyramid_developers/" target="_blank" rel="noreferrer">
+                        <InstagramIcon style={{ fontSize: 55 }} className="footer-icon" />
+                    </a>
+                    <a href="https://www.facebook.com/PyramidDeveloper" target="_blank" rel="noreferrer">
+                        <FacebookIcon style={{ fontSize: 55 }} className="footer-icon" />
+                    </a>
                 </div>
             </div>
         </div>
