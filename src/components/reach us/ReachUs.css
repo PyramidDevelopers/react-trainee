@@ -1,0 +1,197 @@
+@font-face {
+    font-family: OCRAExtended;
+    src: url('../../fonts/OCRAEXT.TTF');
+}
+
+@font-face {
+    font-family: ISOCPEUR;
+    src: url('../../fonts/isocpeur.ttf');
+}
+
+.reach-us-section {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-container {
+    display: flex;
+    flex-flow: column;
+    width: 460px;
+    margin-left: 100px;
+}
+
+.form-submit-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.reach-us-right-container {
+    display: flex;
+    flex-flow: column;
+    width: 500px;
+}
+
+.reach-us-right-upper {
+    display: flex;
+    flex-flow: row;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.reach-us-below-email-section {
+    display: flex;
+    flex-flow: row;
+}
+
+.reach-us-below-phone-section {
+    display: flex;
+    flex-flow: row;
+}
+
+.looking-to-work-container {
+    width: 400px;
+    height: 245px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #2b2f32;
+}
+
+.reach-us-message {
+    width: 450px;
+    margin-inline-start: auto;
+    margin-bottom: 45px;
+    font-family: ISOCPEUR;
+    font-size: 20px;
+    line-height: 1.22;
+    color: #ffca60;
+}
+
+.form-input-container {
+    width: 450px;
+    height: 68px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #2b2f32;
+}
+
+.form-textarea-input-container {
+    width: 450px;
+    height: 205px;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #2b2f32;
+}
+
+.input {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+    resize: none;
+    color: #ffca60;
+    caret-color: #ffca60;
+}
+
+.form-input-text {
+    font-family: OCRAExtended;
+    font-size: 18px;
+    line-height: 1.04;
+    letter-spacing: -2.4px;
+    text-align: left;
+    color: #ffca60;
+    margin: 10px;
+}
+
+.reach-us-vertical-rect {
+    width: 90px;
+    height: 120px;
+    border-radius: 15px;
+    background-color: #2b2f32;
+    margin: 5px;
+}
+
+.reach-us-vertical-dark-rect {
+    width: 90px;
+    height: 120px;
+    border-radius: 15px;
+    background-color: #222629;
+    margin: 5px;
+}
+
+.reach-us-vertical-big-rect {
+    width: 90px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: #ffca60;
+    margin: 5px;
+}
+
+.reach-us-rect-text {
+    font-family: OCRAExtended;
+    font-size: 20px;
+    line-height: 1.03;
+    letter-spacing: -3px;
+    color: #222629;
+    text-align: center;
+    margin-top: 0;
+}
+
+.arrow-icon {
+    margin: 165px 20px 0;
+}
+
+.reach-us-icon {
+    margin: 35px 20px 0;
+}
+
+.work-with-us-ques {
+    font-family: OCRAExtended;
+    font-size: 20px;
+    line-height: 1.03;
+    letter-spacing: -3px;
+    text-align: left;
+    color: #ffca60;
+    margin: 20px 20px 60px;
+}
+
+.work-with-us-message {
+    font-family: ISOCPEUR;
+    font-size: 19px;
+    line-height: 1.22;
+    text-align: left;
+    color: #adadad;
+    margin: 120px 20px 20px;
+}
+
+.reach-us-logo-rect {
+    width: 90px;
+    height: 120px;
+    border-radius: 15px;
+    background-color: #ffca60;
+    margin: 5px;
+}
+
+.reach-us-phone-email {
+    width: 400px;
+    height: 120px;
+    border-radius: 15px;
+    background-color: #2b2f32;
+    margin: 5px;
+}
+
+.reach-us-phone-email-text {
+    font-family: OCRAExtended;
+    font-size: 30px;
+    line-height: 1.03;
+    letter-spacing: -4px;
+    margin: 45px 10px 45px;
+    text-align: left;
+    color: #ffca60;
+}
