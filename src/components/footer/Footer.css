@@ -1,0 +1,96 @@
+@font-face {
+    font-family: OCRAExtended;
+    src: url('../../fonts/OCRAEXT.TTF');
+}
+
+@font-face {
+    font-family: ISOCPEUR;
+    src: url('../../fonts/isocpeur.ttf');
+}
+
+.footer-section {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    background-color: #ffca60;
+    height: 430px;
+    margin-top: 100px;
+}
+
+.footer-logo-container {
+    display: flex;
+    flex-flow: column;
+    width: 90px;
+    height: 280px;
+    border-radius: 15px;
+    margin-top: 75px;
+    margin-right: 30px;
+    margin-left: 110px;
+    background-color: #222629;
+}
+
+.footer-about-us-container {
+    display: flex;
+    flex-flow: column;
+    margin-top: 75px;
+    width: 300px;
+    margin-right: 50px;
+}
+
+.footer-useful-links-container {
+    display: flex;
+    margin-top: 75px;
+    margin-right: 100px;
+    flex-flow: column;
+}
+
+.footer-stay-connected-container {
+    display: flex;
+    margin-top: 75px;
+    flex-flow: column;
+}
+
+.footer-icons-container {
+    display: flex;
+    flex-flow: row;
+}
+
+.footer-headings {
+    font-family: OCRAExtended;
+    font-size: 40px;
+    line-height: 1.04;
+    letter-spacing: -5px;
+    text-align: left;
+    margin: 0 5px 5px;
+    color: #2b2f32;
+}
+
+.footer-text {
+    font-family: ISOCPEUR;
+    font-size: 20px;
+    line-height: 1.22;
+    text-align: left;
+    color: #222629;
+    margin: 5px 5px 5px;
+}
+
+.footer-click-me {
+    font-family: OCRAExtended;
+    margin: 60px 10px 10px;
+    font-size: 20px;
+    line-height: 1.03;
+    letter-spacing: -1.5px;
+    text-align: left;
+    color: #ffca60;
+}
+
+.footer-logo {
+    margin: 20px 20px 120px;
+    width: 50px;
+    height: 70px;
+    vertical-align: middle;
+}
+
+.footer-icon {
+    margin: 10px 7.5px 10px;
+}

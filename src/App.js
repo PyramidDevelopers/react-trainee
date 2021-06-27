@@ -4,6 +4,7 @@ import { Who } from './components/who/Who'
 import { What } from './components/what/What';
 import { Why } from './components/why/Why';
 import { ReachUs } from './components/reach us/ReachUs';
+import { Footer } from './components/footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Why />
       <OurTeam />
       <ReachUs />
+      <Footer />
     </div>
   );
 }

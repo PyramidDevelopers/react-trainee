@@ -2,6 +2,7 @@ import React from 'react'
 import KeyboardReturnIcon from '@material-ui/icons/KeyboardReturn';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import PhoneOutlinedIcon from '@material-ui/icons/PhoneOutlined';
+import { fontSize } from '@material-ui/system'
 import './ReachUs.css'
 
 export const ReachUs = () => {
