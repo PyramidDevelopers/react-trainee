@@ -1,11 +1,11 @@
-import React from 'react'
-import './Main.css'
+import React from 'react';
+import './Main.css';
 
-const Main = () => {
-    return (
-        <div></div>
-    )
+ function Main() {
+  return (
+    <div>
+    </div>
+  );
 }
 
-export default Main;
-
+export default Main

@@ -5,8 +5,10 @@ import nearvibe from "../../assets/near-vibe.png";
 import vitalminds from "../../assets/vital-minds.png";
 import enermanapp from "../../assets/enerman-app.png";
 import takeyourtrip from "../../assets/take-your-trip.png";
+import GridList from '@material-ui/core/GridList';
 
 const Showcase = () => {
+
   return (
     <div className="showcase">
       <div className="showcase-title">
@@ -15,9 +17,10 @@ const Showcase = () => {
         </div>
       </div>
       <div className="main">
-        <div className="left-tile">
-          <div className="col1">
-            <div className="col1-text">
+      <GridList>
+        <div className="tile">
+          <div className="col">      
+            <div className="col-text">
               <div className="content">
                 <p>ONGOING</p>
               </div>
@@ -27,12 +30,13 @@ const Showcase = () => {
                 where families get healthier, together!
               </h5>
             </div>
-            <div className="col1-image">
+        
+            <div className="col-image">
               <img src={nutrifamily} alt="" />
             </div>
           </div>
-          <div className="col1">
-            <div className="col1-text">
+          <div className="col">
+            <div className="col-text">
               <div className="content">
                 <p>ONGOING</p>
               </div>
@@ -42,14 +46,12 @@ const Showcase = () => {
                 how people are feeling in your area
               </h5>
             </div>
-            <div className="col1-image">
+            <div className="col-image">
               <img src={nearvibe} alt="" />
             </div>
           </div>
-        </div>
-        <div className="right-tile">
-          <div className="col2">
-            <div className="col2-text">
+          <div className="col">
+            <div className="col-text">
               <div className="content">
                 <p>ONGOING</p>
               </div>
@@ -59,12 +61,12 @@ const Showcase = () => {
                 assistant
               </h5>
             </div>
-            <div className="col2-image">
+            <div className="col-image">
               <img src={vitalminds} alt="" />
             </div>
           </div>
-          <div className="col2">
-            <div className="col2-text">
+          <div className="col">
+            <div className="col-text">
               <h4>Enerman App</h4>
               <h5>
                 Solar Panel information
@@ -72,22 +74,24 @@ const Showcase = () => {
                 dashboard
               </h5>
             </div>
-            <div className="col2-image">
+            <div className="col-image">
               <img src={enermanapp} alt="" />
             </div>
           </div>
-          <div className="col2">
-            <div className="col2-text">
+          <div className="col">
+            <div className="col-text">
               <h4>TakeYourTrip</h4>
               <h5>A travel booking app</h5>
             </div>
-            <div className="col2-image">
+            <div className="col-image">
               <img src={takeyourtrip} alt="" />
             </div>
           </div>
         </div>
+      </GridList>
       </div>
     </div>
+    
   );
 };
 
